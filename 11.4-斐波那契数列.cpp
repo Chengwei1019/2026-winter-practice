@@ -22,8 +22,7 @@ int main(){
             num = temp1 + temp2;
             temp1 = temp2;
             temp2 = num;
-            cout<<
-
+            cout<<num<<" ";
         }
     }
 }
