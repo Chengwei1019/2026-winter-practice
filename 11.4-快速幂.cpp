@@ -10,5 +10,8 @@ b 可能很大，不能把 a 连乘 b 次。
 using namespace std;
 int main(){
     long long a,b;
-    
+    int p;
+    cin>>a>>b>>p;
+    int num;
+    num
 }
