@@ -14,6 +14,6 @@ int main(){
     cin>>a>>b>>p;
     int num,aum;
     for(int i = 1;i <= b;i++){
-        
+        num = a*=a;
     }
 }
