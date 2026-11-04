@@ -1,7 +1,7 @@
-# 2026 秋季学期代码仓库
+# 2026 冬季实践 · 代码仓库
 
-记录这学期写的所有代码。每写一个项目/练习，就新建一个文件夹放进来，
-改动会自动提交并推送到 GitHub 的 [Chengwei1019/2026-fall-code](https://github.com/Chengwei1019/2026-fall-code)（私有仓库）。
+记录 2026 冬季实践期间写的所有代码。每写一个项目/练习，就新建一个文件夹放进来，
+改动会自动提交并推送到 GitHub 的 [Chengwei1019/2026-winter-practice](https://github.com/Chengwei1019/2026-winter-practice)（公开仓库）。
 
 ## 目录结构
 
