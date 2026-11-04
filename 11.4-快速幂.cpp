@@ -13,5 +13,5 @@ int main(){
     int p;
     cin>>a>>b>>p;
     int num;
-    num
+    for(int i = 1;)
 }
