@@ -1,9 +1,16 @@
-﻿# 新建一个 C++ 项目：复制 _template 里的配置文件，然后用 VS Code 打开
+# 新建一个 C++ 项目：复制 _template 里的配置文件，然后用 VS Code 打开
 $ErrorActionPreference = 'Stop'
 [Console]::OutputEncoding = [Text.Encoding]::UTF8
 
-$root = Split-Path -Parent $MyInvocation.MyCommand.Path
-$tpl  = Join-Path $root '_template'
+$scriptDir = Split-Path -Parent $MyInvocation.MyCommand.Path
+$tpl = Join-Path $scriptDir '_template'
+
+# 项目要建在仓库根目录，而不是脚本所在的 _工具 文件夹里
+$root = $null
+try { $root = (& git -C $scriptDir rev-parse --show-toplevel 2>$null | Out-String).Trim() } catch { }
+if ([string]::IsNullOrWhiteSpace($root) -or -not (Test-Path -LiteralPath $root)) {
+    $root = Split-Path -Parent $scriptDir
+}
 
 Write-Host ''
 Write-Host '========= 新建 C++ 项目 =========' -ForegroundColor Cyan
