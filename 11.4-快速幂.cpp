@@ -17,5 +17,6 @@ int main(){
         num = a*=a;
     }
     aum = num % p;
-    
+    cout<<aum<<endl;
+    return 0;
 }
