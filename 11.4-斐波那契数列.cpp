@@ -11,7 +11,10 @@ int main(){
     int n;
     cin>>n;
     int temp1,temp2;
+    int num;
     for(int i = 1;i <= n;i++){
-        if(i == 1 || i == 2){}
+        if(i == 1 || i == 2){
+            
+        }
     }
 }
