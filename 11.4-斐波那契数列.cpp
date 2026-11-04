@@ -23,6 +23,9 @@ int main(){
             temp1 = temp2;
             temp2 = num;
             cout<<num<<" ";
+        }else if(i == n){
+            num = temp1 + temp2;
+            cout<<num;
         }
     }
     return 0;
