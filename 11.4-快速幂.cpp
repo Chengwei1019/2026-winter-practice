@@ -15,6 +15,8 @@ int main(){
     cin>>a>>b>>p;
     while(b > 0){
         if(b % 2 == 1){
-            aus = a %
+            aus = a % p;
     }
+       
+}
 }
