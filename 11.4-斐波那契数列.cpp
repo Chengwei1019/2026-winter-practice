@@ -19,7 +19,10 @@ int main(){
             temp2 = 1;
             cout<<num<<" ";
         }else if(i >= 3){
-            num = temp1 + 
+            num = temp1 + temp2;
+            temp1 = temp2;
+            temp2 = num;
+            cout<<
 
         }
     }
