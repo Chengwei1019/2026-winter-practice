@@ -8,5 +8,8 @@
 #include<iostream>
 using namespace std;
 int main(){
-    
+    int n;
+    cin>>n;
+    int temp1,temp2;
+    for
 }
