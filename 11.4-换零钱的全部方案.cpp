@@ -7,3 +7,6 @@
 第一行输出方案数。
 接下来每行一种方案，格式为 x y z，表示 10 元、5 元、1 元的张数。
 按 x 从大到小；x 相同则按 y 从大到小。*/
+#include<iostream>
+using namespace std;
+int main()
