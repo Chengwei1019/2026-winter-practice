@@ -9,4 +9,11 @@
 按 x 从大到小；x 相同则按 y 从大到小。*/
 #include<iostream>
 using namespace std;
-int main()
+int main(){
+    int n;
+    cin>>n;
+    int x,y,z;
+    for(x = 0,x>= 0;x++){
+        for
+    }
+}
