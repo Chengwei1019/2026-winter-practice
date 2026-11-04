@@ -1,0 +1,32 @@
+# ---- 编译产物（MSVC / MinGW）----
+bin/
+*.exe
+*.obj
+*.pdb
+*.ilk
+*.idb
+*.exp
+*.lib
+*.o
+*.a
+*.dll
+*.dll.a
+
+# ---- 构建目录 ----
+build/
+out/
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+
+# ---- 编辑器 / 系统 ----
+.vs/
+*.user
+*.suo
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# ---- 临时文件 ----
+_scratch/
+*.log
