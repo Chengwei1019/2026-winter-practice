@@ -9,7 +9,7 @@
 using namespace std;
 int main()
 {
-    int n;
+    long long n;
     cin >> n;
     if(n == 0)
     {
@@ -17,7 +17,7 @@ int main()
         return 0;
     }
     // 先找最高位的权
-    int w = 1;
+    long long w = 1;
     while(w * 2 <= n)
     {
         w = w * 2;
