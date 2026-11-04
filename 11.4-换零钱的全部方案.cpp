@@ -12,8 +12,9 @@ using namespace std;
 int main(){
     int n;
     cin>>n;
-    int x,y,z;
-    for(x = 0,x>= 0;x++){
-        for
+    for(int x = 0;x>= 0;x++){
+        for(int y = 0;y>=0;y++){
+            for
+        }
     }
 }
