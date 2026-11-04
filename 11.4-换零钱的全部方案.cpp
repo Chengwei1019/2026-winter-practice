@@ -19,7 +19,15 @@ int main(){
         int q = (n - (10*x))/5;
         for(int y = q;y>=0;y--){
             z = n - (10*x) - (5*y);
-            if()
+            sum++;
+        }
+        
+    }
+    for(int x = m;x>= 0;x--){
+        int q = (n - (10*x))/5;
+        for(int y = q;y>=0;y--){
+            z = n - (10*x) - (5*y);
+            sum++;
         }
     }
     return 0;
