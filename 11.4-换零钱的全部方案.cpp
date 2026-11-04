@@ -12,14 +12,16 @@ using namespace std;
 int main(){
     int n;
     cin>>n;
+    int m;
     m = n/10
     for(int x = m;x>= 0;x--){
         for(int y = 0;y>=0;y++){
             for(int z = 0;z>=0;z++){
                 if(10*x + 5*y + z == n){
-                    cout
+                    cout<<x<<" "<<y<<" "<<z<<endl;
                 }
             }
         }
     }
+    return 0;
 }
