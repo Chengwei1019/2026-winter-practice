@@ -17,7 +17,7 @@ int main(){
     int sum = 0;
     for(int x = m;x>= 0;x--){
         int q = (n - (10*x))/5;
-        for(int y = q;y>=0;y++){
+        for(int y = q;y>=0;y--){
             for(int z = 0;z>=0;z++){
                 if(10*x + 5*y + z == n){
                     cout<<x<<" "<<y<<" "<<z<<endl;
