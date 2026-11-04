@@ -10,8 +10,8 @@ b 可能很大，不能把 a 连乘 b 次。
 using namespace std;
 int main(){
     long long a,b;
-    int p;
-    int aus = 1;
+    long long p;
+    long long aus = 1;
     cin>>a>>b>>p;
     a = a%p;
     while(b > 0){
@@ -21,5 +21,6 @@ int main(){
        a = (a*a) % p;
        b = b/2;
 }
+cout<<aus<<endl;
 return 0;
 }
