@@ -16,8 +16,6 @@ int main(){
         if(n/10 == 0){
             break;
             cout<<a<<endl;
-        }else if(n/10 != 0){
-            
         }
     }
 }
