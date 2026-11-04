@@ -7,16 +7,34 @@
 输出 n 的二进制，不含前导 0。*/
 #include<iostream>
 using namespace std;
-int main(){
+int main()
+{
     int n;
-    cin>>n;
-    for(int i = 1;i != 0;i++){
-        int a;
-        a = n%10;
-        n = n - a
-        if(n/10 == 0){
-            break;
-            cout<<a<<endl;
-        }
+    cin >> n;
+    if(n == 0)
+    {
+        cout << 0;
+        return 0;
     }
+    // 先找最高位的权
+    long long w = 1;
+    while(w * 2 <= n)
+    {
+        w = w * 2;
+    }
+    // 从高位到低位逐位输出
+    while(w > 0)
+    {
+        if(n >= w)
+        {
+            cout << 1;
+            n = n - w;
+        }
+        else
+        {
+            cout << 0;
+        }
+        w = w / 2;
+    }
+    return 0;
 }
