@@ -11,13 +11,5 @@ using namespace std;
 int main(){
     long long a,b;
     int p;
-    cin>>a>>b>>p;
-    int num = 1;
-    int aum;
-    for(int i = 1;i <= b;i++){
-        num = num*a;
-    }
-    aum = num % p;
-    cout<<aum<<endl;
-    return 0;
+    
 }
