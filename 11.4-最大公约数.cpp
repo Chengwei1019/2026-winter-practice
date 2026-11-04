@@ -11,7 +11,7 @@ int main(){
     int a,b;
     cin>>a>>b;
     int max_val = 1;
-    for(int i = 1; ;i++){
+    for(int i = 1;i <= a;i++){
         if(a%i == 0 && b%i == 0){
             max_val = i;
         }
