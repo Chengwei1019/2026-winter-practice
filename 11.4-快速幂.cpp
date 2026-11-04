@@ -9,5 +9,6 @@ b 可能很大，不能把 a 连乘 b 次。
 #include<iostream>
 using namespace std;
 int main(){
+    long long a,b;
     
 }
