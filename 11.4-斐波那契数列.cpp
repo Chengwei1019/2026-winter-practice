@@ -14,7 +14,8 @@ int main(){
     int num;
     for(int i = 1;i <= n;i++){
         if(i == 1 || i == 2){
-            
-        }
+            num = 1;
+            cout<<num<<" ";
+        }else if(i != 1 \\)
     }
 }
