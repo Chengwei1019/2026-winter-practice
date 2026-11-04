@@ -10,13 +10,12 @@ using namespace std;
 int main(){
     int n;
     cin>>n;
-    int temp1,temp2;
+    int temp1 = 1;
+    int temp2 = 1;
     int num;
     for(int i = 1;i <= n;i++){
         if(i == 1 || i == 2){
             num = 1;
-            temp1 = 1;
-            temp2 = 1;
             cout<<num<<" ";
         }else if(i >= 3 && i < n){
             num = temp1 + temp2;
