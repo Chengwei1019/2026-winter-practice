@@ -11,9 +11,10 @@ using namespace std;
 int main(){
     long long a,b;
     int p;
-    int aus;
+    int aus = 1;
     cin>>a>>b>>p;
     while(b > 0){
-        
+        if(b % 2 == 1){
+            aus = a %
     }
 }
