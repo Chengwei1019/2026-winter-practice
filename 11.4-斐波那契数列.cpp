@@ -19,6 +19,7 @@ int main(){
             temp2 = 1;
             cout<<num<<" ";
         }else if(i != 1 || i != 2){
+            num = temp1 + temp2;
             
         }
     }
