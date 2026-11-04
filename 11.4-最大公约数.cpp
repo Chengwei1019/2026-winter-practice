@@ -11,8 +11,9 @@ int main(){
     int a,b;
     cin>>a>>b;
     int max_val = 1;
-    
-    for(int i = 1;i <= a;i++){
+    // 取两数的较小值作为循环上限
+    int min_ab = a < b ? a : b;
+    for(int i = 1;i <= min_ab;i++){
         if(a%i == 0 && b%i == 0){
             max_val = i;
         }
