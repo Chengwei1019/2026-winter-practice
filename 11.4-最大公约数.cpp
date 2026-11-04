@@ -7,4 +7,6 @@
 输出一个整数，表示 gcd(a, b)。*/
 #include<iostream>
 using namespace std;
-int main()
+int main(){
+    
+}
