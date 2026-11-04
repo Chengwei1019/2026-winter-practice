@@ -16,4 +16,6 @@ int main(){
     for(int i = 1;i <= b;i++){
         num = a*=a;
     }
+    aum = num % p;
+    
 }
