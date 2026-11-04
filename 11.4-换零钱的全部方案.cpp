@@ -13,7 +13,7 @@ int main(){
     int n;
     cin>>n;
     int m;
-    m = n/10
+    m = n/10;
     for(int x = m;x>= 0;x--){
         for(int y = 0;y>=0;y++){
             for(int z = 0;z>=0;z++){
