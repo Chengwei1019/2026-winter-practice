@@ -16,6 +16,8 @@ int main(){
         if(i == 1 || i == 2){
             num = 1;
             cout<<num<<" ";
-        }else if(i != 1 \\)
+        }else if(i != 1 || i != 2){
+            
+        }
     }
 }
