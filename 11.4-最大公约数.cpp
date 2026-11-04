@@ -16,4 +16,6 @@ int main(){
             max_val = i;
         }
     }
+    cout<<max_val<<endl;
+    return 0;
 }
