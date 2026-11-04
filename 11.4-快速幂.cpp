@@ -12,9 +12,10 @@ int main(){
     long long a,b;
     int p;
     cin>>a>>b>>p;
-    int num,aum;
+    int num = 1;
+    int aum;
     for(int i = 1;i <= b;i++){
-        num = a*a;
+        num = num*a;
     }
     aum = num % p;
     cout<<aum<<endl;
