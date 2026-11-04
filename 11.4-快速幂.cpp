@@ -21,4 +21,5 @@ int main(){
        a = (a*a) % p;
        b = b/2;
 }
+return 0;
 }
