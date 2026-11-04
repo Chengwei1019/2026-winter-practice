@@ -12,10 +12,11 @@ int main(){
     long long a,b;
     int p;
     int aus = 1;
+    a = a%p;
     cin>>a>>b>>p;
     while(b > 0){
         if(b % 2 == 1){
-            aus = a % p;
+            aus = (aus * a) % p;
     }
        a = (a*a) % p;
        b = b/2;
