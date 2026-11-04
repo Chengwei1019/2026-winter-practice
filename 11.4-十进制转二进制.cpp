@@ -11,6 +11,8 @@ int main(){
     int n;
     cin>>n;
     for(int i = 1;i != 0;i++){
-        int a
+        int a;
+        a = n%10;
+        if(n/10)
     }
 }
