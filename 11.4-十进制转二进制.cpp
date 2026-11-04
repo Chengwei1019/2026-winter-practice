@@ -13,6 +13,9 @@ int main(){
     for(int i = 1;i != 0;i++){
         int a;
         a = n%10;
-        if(n/10)
+        if(n/10 == 0){
+            break;
+            cout<<a<<endl;
+        }else if(n/)
     }
 }
