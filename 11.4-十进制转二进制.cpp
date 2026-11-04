@@ -28,7 +28,7 @@ int main()
         if(n >= w)
         {
             cout << 1;
-            n = n - w;
+        n = n - w;
         }
         else
         {
