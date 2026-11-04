@@ -12,6 +12,8 @@ int main(){
     long long a,b;
     int p;
     cin>>a>>b>>p;
-    int num;
-    for(int i = 1;)
+    int num,aum;
+    for(int i = 1;i <= b;i++){
+        
+    }
 }
