@@ -15,10 +15,11 @@ int main(){
     int m;
     m = n/10;
     int sum = 0;
+    int z;
     for(int x = m;x>= 0;x--){
         int q = (n - (10*x))/5;
         for(int y = q;y>=0;y--){
-            int z = n - (10*x) - (5*y);
+             z = n - (10*x) - (5*y);
             sum++;
         }
     }
