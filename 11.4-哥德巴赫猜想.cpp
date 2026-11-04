@@ -26,7 +26,7 @@ int main(){
                     aum++;
                 }
             }
-            if(sum == 2&&aum == 2){
+            if(sum == 2&&aum == 2&&p <= q){
                 cout<<p<<" "<<q<<endl;
             }
         }
