@@ -18,11 +18,12 @@ int main(){
             temp1 = 1;
             temp2 = 1;
             cout<<num<<" ";
-        }else if(i >= 3){
+        }else if(i >= 3 && i < n){
             num = temp1 + temp2;
             temp1 = temp2;
             temp2 = num;
             cout<<num<<" ";
         }
     }
+    return 0;
 }
