@@ -17,7 +17,7 @@ int main()
         return 0;
     }
     // 先找最高位的权
-    long long w = 1;
+    int w = 1;
     while(w * 2 <= n)
     {
         w = w * 2;
