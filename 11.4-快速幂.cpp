@@ -11,5 +11,9 @@ using namespace std;
 int main(){
     long long a,b;
     int p;
-    
+    int aus;
+    cin>>a>>b>>p;
+    while(b > 0){
+        
+    }
 }
