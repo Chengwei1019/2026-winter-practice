@@ -5,3 +5,8 @@
 一行一个整数 n（0 ≤ n ≤ 1000000000）。
 输出描述
 输出 n 的二进制，不含前导 0。*/
+#include<iostream>
+using namespace std;
+int main(){
+    
+}
