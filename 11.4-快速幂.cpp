@@ -17,6 +17,7 @@ int main(){
         if(b % 2 == 1){
             aus = a % p;
     }
-       
+       a = (a*a) % p;
+       b = b/2;
 }
 }
