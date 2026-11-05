@@ -35,7 +35,9 @@ int main(){
         if(a[i] == 0){
             rank = (i + 1)%13;
             suit-id = (i + 1)/13;
-            if(suit)
+            if(suit-id == 0){
+                suit = 'S';
+            }else if(suit-id == 1)
 
         }
     }
