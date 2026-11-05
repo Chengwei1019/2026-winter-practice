@@ -10,7 +10,6 @@
 花色相同时，点数小的先输出。*/
 #include<iostream>
 using namespace std;
-
 int main(){
     int n;
     cin >> n;
