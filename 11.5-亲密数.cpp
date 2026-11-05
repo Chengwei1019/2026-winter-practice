@@ -12,10 +12,15 @@ int main(){
     int n;
     cin>>n;
     int m;
+    int sum;
     for(int i = 1;i < n;i++){
         if(n % i == 0){
             m += i;
         }
     }
-    for
+    for(int i = 1;i < m;i++){
+        if(m % i == 0) [
+    
+        ]
+    }
 }
