@@ -21,7 +21,7 @@ int main(){
             n = n / i;
             for(int m = 2;m <= n;m++){
                 if(n % m == 0){
-                    cout<<" "
+                    cout<<" x "<<m
                 }
 
             }
