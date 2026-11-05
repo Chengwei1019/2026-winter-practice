@@ -22,6 +22,8 @@ int main(){
             suit-id = 0;
         }else if(suit == 'H'){
             suit-id = 1;
-        }
+        }else if(suit == 'C'){
+            suit-id == 2;
+        }else if
     }
 }
