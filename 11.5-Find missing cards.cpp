@@ -10,45 +10,43 @@
 花色相同时，点数小的先输出。*/
 #include<iostream>
 using namespace std;
+
 int main(){
     int n;
-    cin>>n;
+    cin >> n;
     int a[52] = {};
     char suit;
     int rank;
     int sid = 0;
-    for(int m = 1;m <= n;m++){
-        cin>>suit>>rank;
-        int id = 0;
-        if(suit == 'S'){
-            sid = 0;
-        }else if(suit == 'H'){
-            sid = 1;
-        }else if(suit == 'C'){
-            sid = 2;
-        }else if(suit == 'D'){
-            sid = 3;
-        }
-        id = (sid * 13) + (rank - 1);
-        a[id] = id + 1;
+
+    // 输入n张牌并标记
+    for(int m = 1; m <= n; m++){
+        cin >> suit >> rank;
+        if(suit == 'S') sid = 0;
+        else if(suit == 'H') sid = 1;
+        else if(suit == 'C') sid = 2;
+        else sid = 3;
+
+        int id = sid * 13 + (rank - 1);
+        a[id] = 1; // 标记为已出现
     }
 
-    for(int i = 0;i < 52;i++){
+    // 输出缺失的牌
+    for(int i = 0; i < 52; i++){
         if(a[i] == 0){
-            rank = (i + 1)%13;
-            sid = (i + 1)/13;
-            if(sid == 0){
-                suit = 'S';
-            }else if(sid == 1){
-                suit = 'H';
-            }else if(sid == 2){
-                suit = 'C';
-            }else if(sid == 3){
-                suit = 'D';
-            }
-            cout<<suit<<" "<<rank<<endl;
+            // 正确的反向映射公式
+            sid = i / 13;
+            rank = i % 13 + 1;
 
+            // 直接给外层suit赋值，不重复定义
+            if(sid == 0) suit = 'S';
+            else if(sid == 1) suit = 'H';
+            else if(sid == 2) suit = 'C';
+            else suit = 'D';
+
+            cout << suit << " " << rank << endl;
         }
     }
+
     return 0;
 }
