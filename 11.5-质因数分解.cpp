@@ -15,10 +15,9 @@ int main(){
     for(int i = 2;i < n;i++){
         if(n % i == 0){
            sum++;
-           if(sum == 0) {
-                 cout<<n<<"="<<n<<endl;
-           }       
-           break;
+        }
+        if(sum == 0){
+            cout<<n<<"="<<endl;
         }
     }
     for(int i = 2;i < n;i++){
