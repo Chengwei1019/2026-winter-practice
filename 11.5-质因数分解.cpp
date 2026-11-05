@@ -20,7 +20,10 @@ int main(){
         if(sum == 0){
             cout<<n<<"="<<endl;
         }else if(sum != 0){
-            while(n)
+            while(n > 1){
+                int m = 2
+                if(n % m = 0
+            }
         }
 
 
