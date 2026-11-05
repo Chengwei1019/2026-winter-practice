@@ -11,7 +11,7 @@ using namespace std;
 int main(){
     int n;
     cin>>n;
-    int sum;
+    int sum = 0;
     int m = 2;
     for(int i = 2;i < n;i++){
         if(n % i == 0){
