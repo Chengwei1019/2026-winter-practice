@@ -19,7 +19,8 @@ int main(){
         if(n % i != 0){
             cout<<n<<" = "<<i;
             n = n / i;
-            while()
+            int m = 2;
+            while(n)
                 }
 
             }
