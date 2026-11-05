@@ -18,6 +18,11 @@ int main(){
         rab = h - hen;
         if(hen * 2 + rab * 4 == f){
             cout<<hen<<rab<<endl;
+            sum ++;
         }
     }
+    if(sum == 0){
+        cout<<"No Solution"<<endl;
+    }
+    return 0;
 }
