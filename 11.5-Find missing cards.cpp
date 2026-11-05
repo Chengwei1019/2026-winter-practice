@@ -17,13 +17,13 @@ int main(){
     int suit,rank;
     int sid;
     while(cin>>suit>>rank){
-        int id;
+        int id = 0;
         if(suit == 'S'){
             sid = 0;
         }else if(suit == 'H'){
             sid = 1;
         }else if(suit == 'C'){
-            sid == 2;
+            sid = 2;
         }else if(suit == 'D'){
             sid = 3;
         }
