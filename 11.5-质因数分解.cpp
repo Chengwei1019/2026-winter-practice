@@ -23,6 +23,10 @@ int main(){
             while(n == 1){
                 if(n % m == 0){
                     cout<<" x "<<m;
+                    int m = 2;
+                }
+                if(n % m != 0){
+                    m ++;
                 }
 
             }
