@@ -14,7 +14,9 @@ int main(){
     int sum = 0;
     int aum = 0;
     for(int i = 1;i <= n;i++){
-        for()
+        for(int m = 1;m < i){
+            if(i % m == 0)
+        }
     }
 
 }
