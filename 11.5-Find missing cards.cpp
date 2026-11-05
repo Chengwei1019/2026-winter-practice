@@ -15,17 +15,17 @@ int main(){
     cin>>n;
     int a[52] = {};
     int suit,rank;
-    int suit-id;
+    int sid;
     while(cin>>suit>>rank){
         int id;
         if(suit == 'S'){
-            suit-id = 0;
+            sid = 0;
         }else if(suit == 'H'){
-            suit-id = 1;
+            sid = 1;
         }else if(suit == 'C'){
             suit-id == 2;
         }else if(suit == 'D'){
-            suit-id = 3;
+            sid = 3;
         }
         id = (suit-id * 13) + (rank - 1);
         a[id] = id + 1;
@@ -34,7 +34,7 @@ int main(){
     for(int i = 0;i < 52;i++){
         if(a[i] == 0){
             rank = (i + 1)%13;
-            suit-id = (i + 1)/13;
+            sid = (i + 1)/13;
             if(suit-id == 0){
                 suit = 'S';
             }else if(suit-id == 1){
