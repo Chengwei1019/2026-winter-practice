@@ -5,3 +5,9 @@
 一行两个整数 L、R（100 ≤ L ≤ R ≤ 999）。
 输出描述
 按从小到大每行输出一个水仙花数。如果一个都没有，输出 None。*/
+#include<iostream>
+using namespace std;
+int main(){
+
+int 
+}
