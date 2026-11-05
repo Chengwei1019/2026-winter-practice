@@ -35,14 +35,14 @@ int main(){
         if(a[i] == 0){
             rank = (i + 1)%13;
             sid = (i + 1)/13;
-            if(suit-id == 0){
+            if(sid == 0){
                 suit = 'S';
-            }else if(suit-id == 1){
+            }else if(sid == 1){
                 suit = 'H';
-            }else if(suit-id == 2){
+            }else if(sid == 2){
                 suit = 'C';
             }else if(suit-id == 3){
-                suit = 'D'
+                suit = 'D';
             }
             cout<<suit<<" "<<rank<<endl;
 
