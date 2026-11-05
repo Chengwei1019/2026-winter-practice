@@ -13,11 +13,11 @@ int main(){
     int h,f;
     cin>>h>>f;
     int hen,rab;
-    int sum == 0;
+    int sum = 0;
     for(hen = 0;hen <= h;hen ++){
         rab = h - hen;
         if(hen * 2 + rab * 4 == f){
-            cout<<hen<<rab<<endl;
+            cout<<hen<<" "rab<<endl;
             sum ++;
         }
     }
