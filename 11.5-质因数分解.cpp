@@ -20,7 +20,8 @@ int main(){
             cout<<n<<" = "<<i;
             n = n / i;
             int m = 2;
-            while(n)
+            while(n == 1){
+                
                 }
 
             }
