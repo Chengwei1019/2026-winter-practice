@@ -9,7 +9,9 @@
 #include<iostream>
 using namespace std;
 int main(){
-    char letter;
+    char letter,left,right;
     cin>>letter;
-    if(letter>)
+    if(letter > 'a' && letter < 'z'){
+
+    }
 }
