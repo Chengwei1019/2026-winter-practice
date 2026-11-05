@@ -28,10 +28,12 @@ int main(){
             suit-id = 3;
         }
         id = (suit-id * 13) + (rank - 1);
-        a[id] = id;
+        a[id] = id + 1;
     }
 
     for(i = 0;i < 52;i++){
-        
+        if(a[i] == 0){
+            cout
+        }
     }
 }
