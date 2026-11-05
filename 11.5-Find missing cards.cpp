@@ -44,8 +44,9 @@ int main(){
             }else if(suit-id == 3){
                 suit = 'D'
             }
-            cout<<
+            cout<<suit<<" "<<rank<<endl;
 
         }
     }
+    return 0;
 }
