@@ -12,6 +12,8 @@ int main(){
     for(int i = L;i <= R;i++){
         int a,b,c;
         a = i % 10;
-        b = (i-a)
+        b = (i-a) % 10;
+        c = (i-a-b) % 10;
+        if(a)
     }
 }
