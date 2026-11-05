@@ -28,6 +28,7 @@ int main(){
             suit-id = 3;
         }
         id = (suit-id * 13) + (rank - 1);
-        
+        a[id] = id;
+
     }
 }
