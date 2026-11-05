@@ -37,7 +37,11 @@ int main(){
             suit-id = (i + 1)/13;
             if(suit-id == 0){
                 suit = 'S';
-            }else if(suit-id == 1)
+            }else if(suit-id == 1){
+                suit = 'H';
+            }else if(suit-id == 2){
+                suit = 'C'
+            }
 
         }
     }
