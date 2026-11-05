@@ -40,8 +40,11 @@ int main(){
             }else if(suit-id == 1){
                 suit = 'H';
             }else if(suit-id == 2){
-                suit = 'C'
+                suit = 'C';
+            }else if(suit-id == 3){
+                suit = 'D'
             }
+            cout<<
 
         }
     }
