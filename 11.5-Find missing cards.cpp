@@ -28,7 +28,7 @@ int main(){
         }else if(suit == 'D'){
             sid = 3;
         }
-        id = (suit-id * 13) + (rank - 1);
+        id = (sid * 13) + (rank - 1);
         a[id] = id + 1;
     }
 
