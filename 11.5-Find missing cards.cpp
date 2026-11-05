@@ -35,7 +35,6 @@ int main(){
 
     for(int i = 0;i < 52;i++){
         if(a[i] == 0){
-            int suit;
             rank = (i + 1)%13;
             sid = (i + 1)/13;
             if(sid == 0){
