@@ -31,7 +31,7 @@ int main(){
         a[id] = id + 1;
     }
 
-    for(i = 0;i < 52;i++){
+    for(int i = 0;i < 52;i++){
         if(a[i] == 0){
             rank = (i + 1)%13;
             suit-id = (i + 1)/13;
