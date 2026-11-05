@@ -20,6 +20,7 @@ int main(){
     }else if(letter = 'z'){
         left = letter - 1;
         right = 'a';
+        cout<<left<<right
     }else{
-        cout<<
+        cout<<"Invalid"<<endl;
     }
