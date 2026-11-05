@@ -12,10 +12,10 @@ int main(){
     int n;
     cin>>n;
     int sum = 0;
-    int aum = 1;
     for(int i = 1;i <= n;i++){
         for(int m = 1;m < i;m++){
             if(i % m == 0){
+                int aum = 1;
                 aum += m;
             }
         }
