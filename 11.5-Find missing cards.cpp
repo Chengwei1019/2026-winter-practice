@@ -17,8 +17,10 @@ int main(){
     char suit;
     int rank;
     int sid = 0;
-    while(cin>>suit>>rank){
+    for(int m = 1;m <= n;m++){
+        
         int id = 0;
+
         if(suit == 'S'){
             sid = 0;
         }else if(suit == 'H'){
