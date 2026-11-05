@@ -12,5 +12,9 @@ int main(){
     int n;
     cin>>n;
     int m;
-    for(int i = )
+    for(int i = 1;i < n;i++){
+        if(n % i == 0){
+            
+        }
+    }
 }
