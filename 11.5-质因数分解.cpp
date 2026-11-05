@@ -11,10 +11,11 @@ using namespace std;
 int main(){
     int n;
     cin>>n;
+    int sum;
     for(int i = 2;i < n;i++){
         if(n % i == 0){
-            cout<<n<<"="<<n<<endl;
-            break;
+           sum++;
+           break;
         }
     }
     for(int i = 2;i < n;i++){
