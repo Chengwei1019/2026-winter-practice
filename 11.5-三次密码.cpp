@@ -10,5 +10,7 @@ using namespace std;
 int main(){
     int key;
     cin>>key;
-    
+    for(int i = 1;i <= 3;i++){
+        
+    }
 }
