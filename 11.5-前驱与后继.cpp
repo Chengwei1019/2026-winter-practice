@@ -12,6 +12,8 @@ int main(){
     char letter,left,right;
     cin>>letter;
     if(letter > 'a' && letter < 'z'){
-
+        left = letter - 1;
+        right = letter + 1;
+        cout<<
     }
 }
