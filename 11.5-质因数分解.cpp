@@ -17,7 +17,7 @@ int main(){
             cout<<n<<"="<<n<<endl;
         }
         if(n % i != 0){
-            
+            cout<<n<<" ="
         }
     }
 }
