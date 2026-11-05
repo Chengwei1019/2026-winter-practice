@@ -19,6 +19,10 @@ int main(){
                 aum *= m;
             }
         }
+        if(aum == i){
+            cout<<i<<endl;
+            sum ++;
+        }
     }
 
 }
