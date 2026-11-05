@@ -11,6 +11,10 @@
 using namespace std;
 int main(){
     int n,m;
+    cin>>n>>m;
     long long max = 100;
-    int a[max]
+    int a[max] = {};
+    for(int i = 0;i<n;i++){
+        a[i] = i;
+    }
 }
