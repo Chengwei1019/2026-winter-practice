@@ -12,5 +12,5 @@ using namespace std;
 int main(){
     int h,f;
     cin>>h>>f;
-    
+    int hen,rab
 }
