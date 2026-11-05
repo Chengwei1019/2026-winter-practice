@@ -14,7 +14,8 @@ int main(){
     int n;
     cin>>n;
     int a[52] = {};
-    int suit,rank;
+    char suit;
+    int rank;
     int sid;
     while(cin>>suit>>rank){
         int id = 0;
