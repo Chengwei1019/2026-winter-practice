@@ -13,8 +13,9 @@ int main(){
     cin>>n;
     for(int i = 2;i < n;i++){
         if(n % i == 0){
-            break;
             cout<<n<<"="<<n<<endl;
+            break;
+
         }
         if(n % i != 0){
             cout<<n<<" = "<<i;
