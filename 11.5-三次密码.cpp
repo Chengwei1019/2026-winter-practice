@@ -35,16 +35,14 @@ int main(){
     int key;
     cin>>key;
     int a;
-    int sum = 0;
     for(int i = 1;i <= 3;i++){
         cin>>a;
         if(a == key){
             cout<<"Correct"<<endl;
             return 0;
-        }if(a != key){
-            sum++;
         }
     }
         cout<<"Locked"<<endl;
 }
+        return 0的作用就是直接离开cheng'xv
 */
