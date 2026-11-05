@@ -29,5 +29,22 @@ int main(){
 
 /*总是在= 和 ==中出错，以后打完代码或者报错了，先检查一遍。
 改进方法：可不可以不用sum来表示错误次数然后再表示locked
-
+#include<iostream>
+using namespace std;
+int main(){
+    int key;
+    cin>>key;
+    int a;
+    int sum = 0;
+    for(int i = 1;i <= 3;i++){
+        cin>>a;
+        if(a == key){
+            cout<<"Correct"<<endl;
+            return 0;
+        }if(a != key){
+            sum++;
+        }
+    }
+        cout<<"Locked"<<endl;
+}
 */
