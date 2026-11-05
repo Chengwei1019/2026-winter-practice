@@ -11,4 +11,6 @@
 using namespace std;
 int main(){
     int n,m;
+    long long max = 100;
+    int a[max]
 }
