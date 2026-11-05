@@ -8,4 +8,6 @@
 n 本身是质数时，输出 n=n，例如 7=7。*/
 #include<iostream>
 using namespace std;
-int mian()
+int main(){
+    
+}
