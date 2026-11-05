@@ -17,7 +17,7 @@ int main(){
         if(a == key){
             cout<<"Correct"<<endl;
             break;
-        }if(try != key){
+        }if(a != key){
             sum++;
         }
     }
