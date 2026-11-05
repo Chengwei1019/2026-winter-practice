@@ -23,7 +23,7 @@ int main(){
             sum += i;
         }
     }
-    if(n == sum){
+    if(n == sum && m != n){
         cout<<m<<endl;
     }else{
         cout<<"No"<<endl;
