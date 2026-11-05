@@ -29,6 +29,9 @@ int main(){
         }
         id = (suit-id * 13) + (rank - 1);
         a[id] = id;
+    }
 
+    for(i = 0;i < 52;i++){
+        
     }
 }
