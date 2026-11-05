@@ -16,6 +16,8 @@ int main(){
     int suit,rank;
     while(cin>>suit>>rank){
         int num;
-        num = 
+        if(suit == 'S'){
+            
+        }
     }
 }
