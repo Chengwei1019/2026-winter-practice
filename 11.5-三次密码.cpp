@@ -10,11 +10,11 @@ using namespace std;
 int main(){
     int key;
     cin>>key;
-    int try;
+    int a;
     int sum = 0;
     for(int i = 1;i <= 3;i++){
-        cin>>try;
-        if(try == key){
+        cin>>a;
+        if(a == key){
             cout<<"Correct"<<endl;
             break;
         }if(try != key){
@@ -22,6 +22,7 @@ int main(){
         }
     }
     if(sum = 3){
-        cout<<"Locked"
+        cout<<"Locked"<<endl;
     }
+    return 0;
 }
