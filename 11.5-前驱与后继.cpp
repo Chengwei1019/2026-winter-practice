@@ -9,5 +9,7 @@
 #include<iostream>
 using namespace std;
 int main(){
-    char 
+    char letter;
+    cin>>letter;
+    if(letter>)
 }
