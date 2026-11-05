@@ -6,3 +6,10 @@
 一行一个整数 n（1 ≤ n ≤ 10000）。
 输出描述
 输出 n 的亲密数；若不存在，输出 No。*/
+#include<iostream>
+using namespace std;
+int main(){
+    int n;
+    cin>>n;
+    
+}
