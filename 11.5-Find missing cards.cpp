@@ -19,7 +19,9 @@ int main(){
     while(cin>>suit>>rank){
         int num;
         if(suit == 'S'){
-            suit-id = 
+            suit-id = 0;
+        }else if(suit == 'H'){
+            suit-id = 1;
         }
     }
 }
