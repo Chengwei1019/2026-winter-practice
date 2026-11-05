@@ -19,8 +19,9 @@ int main(){
     }
         if(sum == 0){
             cout<<n<<"="<<endl;
-        }else if(sum != 0)    [
- ]
+        }else if(sum != 0){
+            while(n)
+        }
 
 
     
