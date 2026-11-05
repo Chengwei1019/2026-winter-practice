@@ -20,7 +20,9 @@ int main(){
             cout<<n<<" = "<<i;
             n = n / i;
             for(int m = 2;m <= n;m++){
-                if(n )
+                if(n % m == 0){
+                    cout<<" "
+                }
 
             }
         }
