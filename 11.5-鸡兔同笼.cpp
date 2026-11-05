@@ -15,5 +15,8 @@ int main(){
     int hen,rab;
     for(hen = 0;hen <= h;hen ++){
         rab = h - hen;
+        if(hen * 2 + rab * 4 == f){
+            
+        }
     }
 }
