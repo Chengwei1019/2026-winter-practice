@@ -16,5 +16,8 @@ int main(){
             break;
             cout<<n<<"="<<n<<endl;
         }
+        if(n % i != 0){
+            
+        }
     }
 }
