@@ -12,6 +12,7 @@ int main(){
     cin>>n;
     while(n == 1){
         int a;
-        a = 
+        a = n % 10;
+        
     }
 }
