@@ -14,13 +14,17 @@ int main(){
     if(letter > 'a' && letter < 'z'){
         left = letter - 1;
         right = letter + 1;
+        cout<<left<<right<<endl;
     }else if(letter == 'a'){
         left = 'z';
         right = letter + 1;
+        cout<<left<<right<<endl;
     }else if(letter = 'z'){
         left = letter - 1;
         right = 'a';
-        cout<<left<<right
+        cout<<left<<right<<endl;
     }else{
         cout<<"Invalid"<<endl;
     }
+    return 0;
+}
