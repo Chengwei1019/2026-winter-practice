@@ -14,4 +14,5 @@ int main(){
     int n;
     int a[52] = {};
     int suit,rank;
+    
 }
