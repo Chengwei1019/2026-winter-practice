@@ -26,6 +26,7 @@ int main(){
                 if(n % q == 0){
                     cout<<q;
                     n = n / q;
+                    break;
                 }
             }
             while(n > 1){
