@@ -13,9 +13,10 @@ int main(){
     cin>>n;
     int sum = 0;
     for(int i = 1;i <= n;i++){
+        int aum = 1;
         for(int m = 1;m < i;m++){
             if(i % m == 0){
-                int aum = 1;
+                
                 aum += m;
             }
         }
