@@ -19,7 +19,7 @@ int main(){
         left = 'z';
         right = letter + 1;
         cout<<left<<right<<endl;
-    }else if(letter = 'z'){
+    }else if(letter == 'z'){
         left = letter - 1;
         right = 'a';
         cout<<left<<right<<endl;
