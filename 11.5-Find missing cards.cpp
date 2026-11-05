@@ -16,7 +16,7 @@ int main(){
     int a[52] = {};
     char suit;
     int rank;
-    int sid;
+    int sid = 0;
     while(cin>>suit>>rank){
         int id = 0;
         if(suit == 'S'){
