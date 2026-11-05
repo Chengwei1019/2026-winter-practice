@@ -44,5 +44,5 @@ int main(){
     }
         cout<<"Locked"<<endl;
 }
-        return 0的作用就是直接离开cheng'xv
+        return 0的作用就是直接离开程序，所以如果对了就直接离开程序，避免最后还会输出Locked
 */
