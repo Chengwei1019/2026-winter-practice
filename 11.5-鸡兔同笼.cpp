@@ -9,4 +9,8 @@
 若无解，输出 No Solution。*/
 #include<iostream>
 using namespace std;
-int main()
+int main(){
+    int h,f;
+    cin>>h>>f;
+    
+}
