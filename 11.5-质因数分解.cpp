@@ -22,7 +22,9 @@ int main(){
             cout<<n<<"="<<n<<endl;
         }else if(sum != 0){
             cout<<n<<" = ";
-            for(int q = 2;q)
+            for(int q = 2;q < n;q++){
+                if(n )
+            }
             while(n > 1){
                 if(n % m == 0){
                     cout<<" "<<m;
