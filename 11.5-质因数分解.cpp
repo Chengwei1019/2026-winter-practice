@@ -14,7 +14,10 @@ int main(){
     int sum;
     for(int i = 2;i < n;i++){
         if(n % i == 0){
-           sum++;       
+           sum++;
+           if(sum == 0) {
+                 
+           }       
            break;
         }
     }
