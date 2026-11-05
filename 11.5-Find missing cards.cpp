@@ -41,7 +41,7 @@ int main(){
                 suit = 'H';
             }else if(sid == 2){
                 suit = 'C';
-            }else if(suit-id == 3){
+            }else if(sid == 3){
                 suit = 'D';
             }
             cout<<suit<<" "<<rank<<endl;
