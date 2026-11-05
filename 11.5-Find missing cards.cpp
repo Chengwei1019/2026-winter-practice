@@ -33,7 +33,8 @@ int main(){
 
     for(i = 0;i < 52;i++){
         if(a[i] == 0){
-            rank = 
+            rank = (i + 1)%13;
+            suit = i
         }
     }
 }
