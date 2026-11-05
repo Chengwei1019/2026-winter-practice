@@ -9,6 +9,7 @@
 using namespace std;
 int main(){
     int L,R;
+    cin>>L>>R;
     int sum = 0;
     for(int i = L;i <= R;i++){
         int a,b,c;
