@@ -18,9 +18,8 @@ int main(){
     int rank;
     int sid = 0;
     for(int m = 1;m <= n;m++){
-        
+        cin>>suit>>rank;
         int id = 0;
-
         if(suit == 'S'){
             sid = 0;
         }else if(suit == 'H'){
