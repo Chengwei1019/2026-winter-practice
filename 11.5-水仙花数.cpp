@@ -14,6 +14,8 @@ int main(){
         a = i % 10;
         b = (i-a) % 10;
         c = (i-a-b) % 10;
-        if(a)
+        if(a*a*a + b*b*b + c*c*c == i){
+            cout<<
+        }
     }
 }
