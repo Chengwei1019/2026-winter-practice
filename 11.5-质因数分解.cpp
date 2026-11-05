@@ -24,8 +24,8 @@ int main(){
             while(n > 1){
                 int m = 2
                 if(n % m == 0){
-                    cout<<" "
-
+                    cout<<" "<<m;
+                    n = n / m;
                 }
             }
         }
