@@ -17,8 +17,11 @@ int main(){
         if(try == key){
             cout<<"Correct"<<endl;
             break;
+        }if(try != key){
+            sum++;
         }
-        sum++;
     }
-    if(sum = 3)
+    if(sum = 3){
+        cout<<"Locked"
+    }
 }
