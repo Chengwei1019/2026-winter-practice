@@ -15,6 +15,7 @@ int main(){
     long long max = 100;
     int a[max] = {};
     for(int i = 1;i <= n;i++){
-        cin>>
+        cin>>m;
+        
     }
 }
