@@ -15,7 +15,7 @@ int main(){
         int a,b,c;
         a = i % 10;
         b = i/10 % 10;
-        c = (i-a-b) % 10;
+        c = i/10 / 10 % 10;
         if(a*a*a + b*b*b + c*c*c == i){
             cout<<i<<endl;
             sum ++;
