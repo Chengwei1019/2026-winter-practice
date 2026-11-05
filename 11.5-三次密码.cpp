@@ -21,8 +21,10 @@ int main(){
             sum++;
         }
     }
-    if(sum = 3){
+    if(sum == 3){
         cout<<"Locked"<<endl;
     }
     return 0;
 }
+
+/*总是在= 和 ==*/
