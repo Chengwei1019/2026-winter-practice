@@ -11,7 +11,7 @@ int main(){
     int key;
     cin>>key;
     int try;
-    int 
+    int sum = 0;
     for(int i = 1;i <= 3;i++){
         cin>>try;
         if(try == key){
@@ -20,4 +20,5 @@ int main(){
         }
         sum++;
     }
+    if(sum = 3)
 }
