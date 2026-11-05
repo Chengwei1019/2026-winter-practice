@@ -12,5 +12,8 @@ using namespace std;
 int main(){
     int h,f;
     cin>>h>>f;
-    int hen,rab
+    int hen,rab;
+    for(hen = 0;hen <= h;hen ++){
+        rab = h - hen;
+    }
 }
