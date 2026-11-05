@@ -6,3 +6,8 @@
 一行一个整数 n（1 ≤ n ≤ 10000）。
 输出描述
 按从小到大每行输出一个完全数。如果没有，输出 None。*/
+#include<iostream>
+using namespace std;
+int main(){
+    
+}
