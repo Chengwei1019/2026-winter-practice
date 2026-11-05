@@ -11,10 +11,13 @@ int main(){
     int key;
     cin>>key;
     int try;
+    int 
     for(int i = 1;i <= 3;i++){
         cin>>try;
         if(try == key){
-            cout<<
+            cout<<"Correct"<<endl;
+            break;
         }
+        sum++;
     }
 }
