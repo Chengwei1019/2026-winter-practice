@@ -23,5 +23,9 @@ int main(){
             sum += i;
         }
     }
-    if()
+    if(n != sum){
+        cout<<m<<endl;
+    }else{
+        cout<<"No"<<endl;
+    }
 }
