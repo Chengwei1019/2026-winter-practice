@@ -7,4 +7,8 @@
 Correct 或 Locked。*/
 #include<iostream>
 using namespace std;
-int main()
+int main(){
+    int key;
+    cin>>key;
+    
+}
