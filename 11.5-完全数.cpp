@@ -16,7 +16,7 @@ int main(){
     for(int i = 1;i <= n;i++){
         for(int m = 1;m < i;m++){
             if(i % m == 0){
-                aum *= m;
+                aum = aum *= m;
             }
         }
         if(aum == i){
