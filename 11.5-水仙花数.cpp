@@ -10,6 +10,8 @@ using namespace std;
 int main(){
     int L,R;
     for(int i = L;i <= R;i++){
-        
+        int a,b,c;
+        a = i % 10;
+        b = (i-a)
     }
 }
