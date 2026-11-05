@@ -24,5 +24,9 @@ int main(){
             sum ++;
         }
     }
+    if(sum == 0){
+        cout<<"None"<<endl;
+    }
+    return o;
 
 }
