@@ -6,4 +6,8 @@
 输入是一个可见字符。
 输出描述
 一行两个小写字母，或 Invalid。*/
-#inck
+#include<iostream>
+using namespace std;
+int main(){
+    char 
+}
