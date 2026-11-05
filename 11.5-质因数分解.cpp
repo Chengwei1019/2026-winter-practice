@@ -19,9 +19,10 @@ int main(){
         }
     }
         if(sum == 0){
-            cout<<n<<"="<<endl;
+            cout<<n<<"="<<n<<endl;
         }else if(sum != 0){
             cout<<n<<" = ";
+            for(int q = 2;q)
             while(n > 1){
                 if(n % m == 0){
                     cout<<" "<<m;
