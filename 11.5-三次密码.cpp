@@ -12,6 +12,9 @@ int main(){
     cin>>key;
     int try;
     for(int i = 1;i <= 3;i++){
-        cin>>try
+        cin>>try;
+        if(try == key){
+            cout<<
+        }
     }
 }
