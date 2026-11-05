@@ -21,7 +21,8 @@ int main(){
             n = n / i;
             int m = 2;
             while(n == 1){
-                
+                if(n % m == 0){
+                    cout<<" x "<<m;
                 }
 
             }
