@@ -13,7 +13,7 @@ using namespace std;
 int main(){
     int n;
     cin>>n;
-    int !seen[52] = {};
+    int a[52] = {};
     char suit;
     int rank;
     int sid = 0;
