@@ -12,6 +12,7 @@ int main(){
     int n;
     cin>>n;
     int sum;
+    int m = 2;
     for(int i = 2;i < n;i++){
         if(n % i == 0){
            sum++;
@@ -22,7 +23,6 @@ int main(){
         }else if(sum != 0){
             cout<<n<<" = ";
             while(n > 1){
-                 m = 2;
                 if(n % m == 0){
                     cout<<" "<<m;
                     n = n / m;
