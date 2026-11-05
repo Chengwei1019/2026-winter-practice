@@ -12,5 +12,6 @@
 using namespace std;
 int main(){
     int n;
-    int a[52]
+    int a[52] = {};
+    int 
 }
