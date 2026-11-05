@@ -19,8 +19,8 @@ int main(){
         if(n % i != 0){
             cout<<n<<" = "<<i;
             n = n / i;
-            for(int m = 2;m < n;m++){
-                
+            for(int m = 2;m <= n;m++){
+
             }
         }
     }
