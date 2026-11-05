@@ -14,5 +14,8 @@ int main(){
     int n;
     int a[52] = {};
     int suit,rank;
-    
+    while(cin>>suit>>rank){
+        int num;
+        num = 
+    }
 }
