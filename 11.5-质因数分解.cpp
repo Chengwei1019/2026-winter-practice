@@ -22,11 +22,11 @@ int main(){
         }else if(sum != 0){
             cout<<n<<" = ";
             while(n > 1){
-                int m = 2
+                int m = 2;
                 if(n % m == 0){
                     cout<<" "<<m;
                     n = n / m;
-                }
+                }else if(n % m )
             }
         }
 
