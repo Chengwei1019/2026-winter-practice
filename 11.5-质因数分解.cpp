@@ -15,6 +15,9 @@ int main(){
         if(n % i == 0){
             cout<<n<<"="<<n<<endl;
             break;
+        }
+    }
+
 
         }
     for(int i = 2;i < n;i++){
