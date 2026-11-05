@@ -23,11 +23,11 @@ int main(){
         }else if(suit == 'H'){
             sid = 1;
         }else if(suit == 'C'){
-            suit-id == 2;
+            sid == 2;
         }else if(suit == 'D'){
             sid = 3;
         }
-        id = (suit-id * 13) + (rank - 1);
+        int id = (suit-id * 13) + (rank - 1);
         a[id] = id + 1;
     }
 
