@@ -16,6 +16,6 @@ int main(){
     int a[max] = {};
     for(int i = 1;i <= n;i++){
         cin>>m;
-        
+        a[]++;
     }
 }
