@@ -27,6 +27,7 @@ int main(){
         }else if(suit == 'D'){
             suit-id = 3;
         }
-        id = suit
+        id = (suit-id * 13) + (rank - 1);
+        
     }
 }
