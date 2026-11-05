@@ -19,26 +19,9 @@ int main(){
     }
         if(sum == 0){
             cout<<n<<"="<<endl;
-        }
+        }else if(sum != 0)    [
+ ]
 
-        
-    for(int i = 2;i < n;i++){
 
-        if(n % i == 0){
-            cout<<n<<" = "<<i;
-            n = n / i;
-            int m = 2;
-            while(n == 1){
-                if(n % m == 0){
-                    cout<<" x "<<m;
-                    m = 2;
-                }
-                if(n % m != 0){
-                    m ++;
-                }
-
-            }
-        }
-    }
-    return 0;
+    
 }
