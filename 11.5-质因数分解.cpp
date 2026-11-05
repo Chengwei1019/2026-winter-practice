@@ -23,7 +23,9 @@ int main(){
         }else if(sum != 0){
             cout<<n<<" = ";
             for(int q = 2;q < n;q++){
-                if(n )
+                if(n % q == 0){
+                    cout<<
+                }
             }
             while(n > 1){
                 if(n % m == 0){
