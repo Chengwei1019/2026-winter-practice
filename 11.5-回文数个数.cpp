@@ -6,4 +6,7 @@
 输出描述
 一行一个整数，表示回文数的个数*/
 #include<iostream>
-using anmespace std;
+using namespace std;
+int main(){
+    
+}
