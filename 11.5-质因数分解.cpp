@@ -16,7 +16,7 @@ int main(){
         if(n % i == 0){
            sum++;
            if(sum == 0) {
-                 
+                 cout<<n<<"="<<n<<endl;
            }       
            break;
         }
