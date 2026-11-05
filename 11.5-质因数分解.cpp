@@ -24,13 +24,13 @@ int main(){
             cout<<n<<" = ";
             for(int q = 2;q < n;q++){
                 if(n % q == 0){
-                    cout<<q<<;
+                    cout<<q;
                     n = n / q;
                 }
             }
             while(n > 1){
                 if(n % m == 0){
-                    cout<<" "<<m;
+                    cout<<" x "<<m;
                     n = n / m;
                 }else if(n % m != 0){
                     m++;
