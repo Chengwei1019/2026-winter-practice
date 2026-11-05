@@ -14,6 +14,5 @@ int main(){
     if(letter > 'a' && letter < 'z'){
         left = letter - 1;
         right = letter + 1;
-        cout<<left<<" "
-    }
-}
+        cout<<left<<" "<<right;
+    }else if(letter == z'
