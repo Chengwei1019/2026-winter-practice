@@ -12,12 +12,14 @@
 using namespace std;
 int main(){
     int n;
+    cin>>n;
     int a[52] = {};
     int suit,rank;
+    int suit-id;
     while(cin>>suit>>rank){
         int num;
         if(suit == 'S'){
-            
+            suit-id = 
         }
     }
 }
