@@ -22,6 +22,9 @@ int main(){
     int winner = 1;
 
     for(i = 2;i <= m;i++){
-        if
+        if(a[i] > max){
+            max = a[i];
+            winner
+        }
     }
 }
