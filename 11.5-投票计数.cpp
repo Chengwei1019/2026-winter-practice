@@ -21,10 +21,11 @@ int main(){
     int max = a[1];
     int winner = 1;
 
-    for(i = 2;i <= m;i++){
+    for(int i = 2;i <= m;i++){
         if(a[i] > max){
             max = a[i];
-            winner
+            winner = i;
         }
     }
+    cout<<
 }
