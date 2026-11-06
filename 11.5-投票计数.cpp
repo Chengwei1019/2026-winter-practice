@@ -13,5 +13,9 @@ int main(){
     int n,m;
     cin>>m>>n;
     int a[101] = {};
-    for(int i = 0;)
+    for(int i = 0;i < n;i++){
+        int x;
+        cin>>x;
+        a[x]
+    }
 }
