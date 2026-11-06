@@ -19,5 +19,9 @@ int main(){
         a[x]++;
     }
     int max = a[1];
-    int 
+    int winner = 1;
+
+    for(i = 2;i <= m;i++){
+        if
+    }
 }
