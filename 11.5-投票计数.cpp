@@ -12,5 +12,6 @@ using namespace std;
 int main(){
     int n,m;
     cin>>m>>n;
-    int a[101]
+    int a[101] = {};
+    for(int i = 0;)
 }
