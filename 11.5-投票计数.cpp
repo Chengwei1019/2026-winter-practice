@@ -16,6 +16,8 @@ int main(){
     for(int i = 0;i < n;i++){
         int x;
         cin>>x;
-        a[x]
+        a[x]++;
     }
+    int max = a[1];
+    int 
 }
