@@ -27,5 +27,9 @@ int main(){
             winner = i;
         }
     }
-    for(int i = 1,)
+    for(int i = 1,i <= m;i++){
+        cout<<a[i]<<endl;
+    }
+    cout<<winner<<endl;
+    return 0;
 }
