@@ -27,5 +27,5 @@ int main(){
             winner = i;
         }
     }
-    cout<<
+    for(int i = 1,)
 }
