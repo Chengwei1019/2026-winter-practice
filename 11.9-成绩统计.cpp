@@ -41,10 +41,10 @@ int main(){
         }
     }
     if(max == (int)max){
-        
+        cout<<(int)max<<endl;
     }
     if(min == (int)min){
-        min = (int)min;
+        cout<<(int)
     }
     cout<<fixed<<setprecision(2)<<average<<endl;
     cout<<max<<endl<<min<<endl<<pass<<endl;
