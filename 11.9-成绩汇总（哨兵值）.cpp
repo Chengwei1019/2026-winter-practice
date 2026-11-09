@@ -25,6 +25,7 @@ int main(){
     if(n == 0){
         cout<<"No data"<<endl;
     }if(n > 0){
-
+        int max = a[0];
+        for(int m = 1;)
     }
 }
