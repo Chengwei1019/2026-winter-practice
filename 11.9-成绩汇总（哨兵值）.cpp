@@ -26,6 +26,8 @@ int main(){
         cout<<"No data"<<endl;
     }if(n > 0){
         int max = a[0];
-        for(int m = 1;)
+        for(int m = 1;m < n;m++){
+            if(a[i] > max)
+        }
     }
 }
