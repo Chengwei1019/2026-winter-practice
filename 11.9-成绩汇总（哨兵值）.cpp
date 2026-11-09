@@ -15,10 +15,10 @@ int main(){
     int a[1000] = {};
     int i;
     while(cin>>i){
-        if(i != 0){
+        if(i >= 0){
             a[n] = i;
             n ++;
             total += i;
-        }
+        }else if(i = -1)
     }
 }
