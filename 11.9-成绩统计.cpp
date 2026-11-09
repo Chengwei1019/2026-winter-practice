@@ -40,7 +40,9 @@ int main(){
             pass++;
         }
     }
-    
+    if(max = (int)max){
+        max = (int)max;
+    }
     cout<<fixed<<setprecision(2)<<average<<endl;
     cout<<max<<endl<<min<<endl<<pass<<endl;
     return 0;
