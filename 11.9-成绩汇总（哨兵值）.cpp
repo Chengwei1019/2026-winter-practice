@@ -12,5 +12,8 @@ int main(){
     double average,total;
     int max;
     int a[1000] = {};
-    while(i = )
+    while(i = -1){
+        cin>>i;
+        
+    }
 }
