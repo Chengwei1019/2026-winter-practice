@@ -40,6 +40,7 @@ int main(){
             pass++;
         }
     }
-    cout<<fixed<<setprecision(2)<<average<<endl<<max<<endl<<min<<endl<<pass<<endl;
+    cout<<fixed<<setprecision(2)<<average<<endl;
+    cout<<max<<endl<<min<<endl<<pass<<endl;
     return 0;
 }
