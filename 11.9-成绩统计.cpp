@@ -10,6 +10,7 @@
 第 3 行：最低分（最高分、最低分按输入原样输出：整数就输出整数，如 92；带小数就输出小数，如 88.5）；
 第 4 行：高于平均分的人数。*/
 #include<iostream>
+#include<iomanip>
 using namespace std;
 int main(){
     
