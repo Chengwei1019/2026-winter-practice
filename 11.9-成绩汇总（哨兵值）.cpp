@@ -32,6 +32,6 @@ int main(){
             }
         }
         average = total/n;
-        cout<<n<<
+        cout<<n<<endl<<max<<fixed<<st
     }
 }
