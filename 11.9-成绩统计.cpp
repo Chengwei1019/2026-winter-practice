@@ -28,6 +28,10 @@ int main(){
     int max = a[0];
     int min = a[0];
     for(int m = 1;m<n;m++){
-        if()
+        if(a[m] > max){
+            max = a[m];
+        }else if(a[m] < min){
+            min
+        }
     }
 }
