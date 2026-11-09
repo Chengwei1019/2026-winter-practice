@@ -11,5 +11,6 @@ int main(){
     double n;
     double average,total;
     int max;
-    int a[1000] = {}
+    int a[1000] = {};
+    int i
 }
