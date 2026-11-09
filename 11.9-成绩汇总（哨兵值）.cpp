@@ -13,5 +13,10 @@ int main(){
     int max;
     int a[1000] = {};
     int i;
-    while(cin)
+    while(cin>>i){
+        if(i != 0){
+            n++;
+            a
+        }
+    }
 }
