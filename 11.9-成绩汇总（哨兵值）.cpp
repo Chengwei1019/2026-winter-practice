@@ -6,6 +6,7 @@
 如果没有任何成绩，输出一行 No data。
 否则输出三行：成绩个数、最高分、平均分（保留两位小数）。*/
 #include<iostream>
+#include<iomanip>
 using namespace std;
 int main(){
     double n = 0;
@@ -32,6 +33,7 @@ int main(){
             }
         }
         average = total/n;
-        cout<<n<<endl<<max<<fixed<<st
+        cout<<n<<endl<<max<<endl<<fixed<<setprecision(2)<<average<<endl;
     }
+    return 0;
 }
