@@ -14,6 +14,7 @@
 using namespace std;
 int main(){
     int n;
+    cin>>n;
     int mark;
     double average;
     double total = 0;
