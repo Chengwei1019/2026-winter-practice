@@ -19,5 +19,6 @@ int main(){
     int max,min;
     double total;
     int pass;
-    
+    int a[1000] = {};
+    while
 }
