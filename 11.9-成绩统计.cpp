@@ -42,7 +42,7 @@ int main(){
     }
     cout<<fixed<<setprecision(2)<<average<<endl;
     cout.unsetf(ios::fixed);
-    
+    cout << setprecision(6);
 
     if(max == (int)max){
         cout<<(int)max<<endl;
