@@ -65,4 +65,5 @@ int main(){
 cout格式控制是全局生效的，如果在最前面使用了cout<<fixed<<setprecision(2),那么后面再进行cout输出都会是保留两位小数。
 所以一定要注意，不解除后面就会出问题。
 可以使用printf,printf只对当前这一次输出进行改变,printf("%.2f\n", average),但是用printf需要加#include <cstdio>前缀。
+2.
 */
