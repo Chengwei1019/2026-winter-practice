@@ -19,14 +19,14 @@ int main(){
     double average;
     double total = 0;
     int pass = 0;
-    int a[1000] = {};
+    double a[1000] = {};
     for(int i = 0;i<n;i++){
         cin>>mark;
         a[i] = mark;
         total += mark;
     }
-    int max = a[0];
-    int min = a[0];
+    double max = a[0];
+    double min = a[0];
     for(int m = 1;m<n;m++){
         if(a[m] > max){
             max = a[m];
