@@ -26,5 +26,8 @@ int main(){
         total += mark;
     }
     int max = a[0];
-    int min
+    int min = a[0];
+    for(int m = 1;m<n;m++){
+        if()
+    }
 }
