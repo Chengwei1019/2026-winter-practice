@@ -18,7 +18,7 @@ int main(){
         if(i != 0){
             a[n] = i;
             n ++;
-            
+            total += i;
         }
     }
 }
