@@ -11,7 +11,6 @@ int main(){
     double n = 0;
     double average;
     double total = 0;
-    int max;
     int a[1000] = {};
     int i;
     while(cin>>i){
@@ -23,5 +22,9 @@ int main(){
             break;
         }
     }
-    if(n == 0)
+    if(n == 0){
+        cout<<"No data"<<endl;
+    }if(n > 0){
+
+    }
 }
