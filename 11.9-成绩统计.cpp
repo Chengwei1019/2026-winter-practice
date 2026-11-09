@@ -20,5 +20,9 @@ int main(){
     double total;
     int pass;
     int a[1000] = {};
-    while
+    for(int i = 0;i<n;i++){
+        cin>>mark;
+        a[i] = mark;
+        total = 
+    }
 }
