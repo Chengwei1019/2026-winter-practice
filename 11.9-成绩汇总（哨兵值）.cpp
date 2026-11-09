@@ -9,7 +9,8 @@
 using namespace std;
 int main(){
     double n = 0;
-    double average,total;
+    double average;
+    double total = 0;
     int max;
     int a[1000] = {};
     int i;
