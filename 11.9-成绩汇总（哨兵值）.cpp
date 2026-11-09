@@ -9,5 +9,7 @@
 using namespace std;
 int main(){
     double n;
-    double average
+    double average,total;
+    int max;
+    int a[1000] = {}
 }
