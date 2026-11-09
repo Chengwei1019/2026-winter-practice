@@ -19,6 +19,9 @@ int main(){
             a[n] = i;
             n ++;
             total += i;
-        }else if(i = -1)
+        }else if(i == -1) {
+            break;
+        }
     }
+    if(n == 0)
 }
