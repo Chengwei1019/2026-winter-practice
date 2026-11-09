@@ -41,16 +41,20 @@ int main(){
         }
     }
     cout<<fixed<<setprecision(2)<<average<<endl;
+    cout.unsetf(ios::fixed);
+
     if(max == (int)max){
         cout<<(int)max<<endl;
     }else{
         cout<<max<<endl;
     }
+
     if(min == (int)min){
         cout<<(int)min<<endl;
     }else{
         cout<<min<<endl;
     }
+    
     cout<<pass<<endl;
     return 0;
 }
