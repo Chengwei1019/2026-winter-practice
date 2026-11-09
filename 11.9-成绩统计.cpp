@@ -35,5 +35,6 @@ int main(){
         }
     }
     average = total / n;
-    cout<<
+    for(int z = 0;z < n;z++)
+    cout<<fixed<<setprecision(2)<<average<<endl<<
 }
