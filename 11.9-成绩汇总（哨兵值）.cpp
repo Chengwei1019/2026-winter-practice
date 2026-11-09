@@ -15,8 +15,9 @@ int main(){
     int i;
     while(cin>>i){
         if(i != 0){
-            n++;
-            a
+            a[n] = i;
+            n ++;
+            
         }
     }
 }
