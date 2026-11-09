@@ -40,13 +40,13 @@ int main(){
             pass++;
         }
     }
+    cout<<fixed(2)<<setprecision
     if(max == (int)max){
         cout<<(int)max<<endl;
     }
     if(min == (int)min){
-        cout<<(int)
+        cout<<(int)min<<endl;
     }
-    cout<<fixed<<setprecision(2)<<average<<endl;
-    cout<<max<<endl<<min<<endl<<pass<<endl;
+    cout<<pass<<endl;
     return 0;
 }
