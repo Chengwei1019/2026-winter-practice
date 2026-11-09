@@ -59,3 +59,5 @@ int main(){
     cout<<pass<<endl;
     return 0;
 }
+
+/*错误点： 题干里面说了*/
