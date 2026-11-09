@@ -61,4 +61,4 @@ int main(){
 }
 
 /*错误点： 1.题干里面说了"最高分、最低分按输入原样输出：整数就输出整数，如 92；带小数就输出小数，如 88.5"
-cout格式控制是全局生效的，如果在最前面使用了cout<<fixed<<setprecision(2)*/
+cout格式控制是全局生效的，如果在最前面使用了cout<<fixed<<setprecision(2),那么后面再进行cout输出都会是bao'liu'liang'wei*/
