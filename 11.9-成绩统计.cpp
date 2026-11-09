@@ -41,7 +41,7 @@ int main(){
         }
     }
     if(max == (int)max){
-        max = (int)max;
+        
     }
     if(min == (int)min){
         min = (int)min;
