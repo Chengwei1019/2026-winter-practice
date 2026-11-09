@@ -18,7 +18,7 @@ int main(){
     double average;
     int max,min;
     double total = 0;
-    int pass;
+    int pass = 0;
     int a[1000] = {};
     for(int i = 0;i<n;i++){
         cin>>mark;
@@ -37,8 +37,8 @@ int main(){
     average = total / n;
     for(int z = 0;z < n;z++){
         if(a[z] > average){
-            
+            pass++;
         }
     }
-    cout<<fixed<<setprecision(2)<<average<<endl<<
+    cout<<fixed<<setprecision(2)<<average<<endl<<max<<endl<<min<<
 }
