@@ -5,3 +5,8 @@
 输出描述
 如果没有任何成绩，输出一行 No data。
 否则输出三行：成绩个数、最高分、平均分（保留两位小数）。*/
+#include<iostream>
+using namespace std;
+int main(){
+    int n
+}
