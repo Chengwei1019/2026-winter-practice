@@ -8,9 +8,9 @@
 #include<iostream>
 using namespace std;
 int main(){
-    double n;
+    double n = 0;
     double average,total;
     int max;
     int a[1000] = {};
-    int i
+    while(i = )
 }
