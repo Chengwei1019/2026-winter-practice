@@ -16,7 +16,6 @@ int main(){
     int n;
     int mark;
     double average;
-    int max,min;
     double total = 0;
     int pass = 0;
     int a[1000] = {};
