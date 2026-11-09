@@ -35,6 +35,10 @@ int main(){
         }
     }
     average = total / n;
-    for(int z = 0;z < n;z++)
+    for(int z = 0;z < n;z++){
+        if(a[z] > average){
+            
+        }
+    }
     cout<<fixed<<setprecision(2)<<average<<endl<<
 }
