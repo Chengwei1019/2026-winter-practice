@@ -43,9 +43,13 @@ int main(){
     cout<<fixed<<setprecision(2)<<average<<endl;
     if(max == (int)max){
         cout<<(int)max<<endl;
+    }else{
+        cout<<max<<endl;
     }
     if(min == (int)min){
         cout<<(int)min<<endl;
+    }else{
+        cout<<min<<endl;
     }
     cout<<pass<<endl;
     return 0;
