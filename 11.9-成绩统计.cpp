@@ -31,7 +31,9 @@ int main(){
         if(a[m] > max){
             max = a[m];
         }else if(a[m] < min){
-            min
+            min = a[m];
         }
     }
+    average = total / n;
+    cout<<
 }
