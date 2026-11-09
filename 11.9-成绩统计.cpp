@@ -17,12 +17,14 @@ int main(){
     int mark;
     double average;
     int max,min;
-    double total;
+    double total = 0;
     int pass;
     int a[1000] = {};
     for(int i = 0;i<n;i++){
         cin>>mark;
         a[i] = mark;
-        total = 
+        total += mark;
     }
+    int max = a[0];
+    int min
 }
