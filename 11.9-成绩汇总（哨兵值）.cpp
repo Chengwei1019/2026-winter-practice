@@ -29,7 +29,7 @@ int main(){
         int max = a[0];
         for(int m = 1;m < n;m++){
             if(a[m] > max){
-                max = a[i];
+                max = a[m];
             }
         }
         average = total/n;
