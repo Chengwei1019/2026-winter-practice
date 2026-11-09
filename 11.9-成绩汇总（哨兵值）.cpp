@@ -9,7 +9,7 @@
 #include<iomanip>
 using namespace std;
 int main(){
-    double n = 0;
+    int n = 0;
     double average;
     double total = 0;
     int a[1000] = {};
