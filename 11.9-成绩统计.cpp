@@ -14,5 +14,10 @@
 using namespace std;
 int main(){
     int n;
-    int 
+    int mark;
+    double average;
+    int max,min;
+    double total;
+    int pass;
+    
 }
