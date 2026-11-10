@@ -62,10 +62,11 @@ int main(){
 
 /*错误点： 
 1.题干里面说了"最高分、最低分按输入原样输出：整数就输出整数，如 92；带小数就输出小数，如 88.5"
-cout格式控制是全局生效的，如果在最前面使用了cout<<fixed<<setprecision(2),那么后面再进行cout输出都会是保留两位小数。
-所以一定要注意，不解除后面就会出问题。
-可以使用printf,printf只对当前这一次输出进行改变,printf("%.2f\n", average),但是用printf需要加#include <cstdio>前缀。
+  cout格式控制是全局生效的，如果在最前面使用了cout<<fixed<<setprecision(2),那么后面再进行cout输出都会是保留两位小数。
+  所以一定要注意，不解除后面就会出问题。
+  可以使用printf,printf只对当前这一次输出进行改变,printf("%.2f\n", average),但是用printf需要加#include <cstdio>前缀。
 2.`setprecision(n)` 的含义由当前的浮点输出模式决定：
   默认模式+setprecision(n)是保留几位有效数字；
-  fixed
+  fixed+setprecision(n)是保留几位小数；
+  所以要用cout.unsetf(ios::fixed);来解除fixed模式，然后让
 */
