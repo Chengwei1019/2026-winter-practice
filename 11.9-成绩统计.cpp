@@ -68,5 +68,10 @@ int main(){
 2.`setprecision(n)` 的含义由当前的浮点输出模式决定：
   默认模式+setprecision(n)是保留几位有效数字；
   fixed+setprecision(n)是保留几位小数；
-  所以要用cout.unsetf(ios::fixed);来解除fixed模式，然后让
+  所以要用cout.unsetf(ios::fixed);来解除fixed模式，然后让setprecision变成6就足够用了。
+3.if(min == (int)min){
+        cout<<(int)min<<endl;
+    }else{
+        cout<<min<<endl;
+        
 */
