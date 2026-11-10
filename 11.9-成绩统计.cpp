@@ -73,5 +73,5 @@ int main(){
         cout<<(int)min<<endl;
     }else{
         cout<<min<<endl;
-  这个地方要分开输出，因为本身min是double类型，即便是让min = (int)
+  这个地方要分开输出，因为本身min是double类型，即便是让min = (int)min也不可以，因为还是会把（int）min变成double类型。
 */
