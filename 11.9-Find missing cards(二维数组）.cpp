@@ -32,6 +32,10 @@ int main(){
     }
 
     for(int i = 0;i<4;i++){
-        
+        for(int m = 0;m < 13;m++){
+            if(a[i][m] == 0){
+                
+            }
+        }
     }
 }
