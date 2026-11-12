@@ -14,12 +14,17 @@ int main(){
     int n,m,p;
     cin>>n>>m>>p;
     int a[50][50] = {};
+    int b[50][50] = {};
 
     for(int i = 0;i<n;i++){
         for(int k = 0;k<m;k++){
-            cin>>a[n][m];
+            cin>>a[i][k];
         }
     }
 
-    
+    for(int i = 0;i<m;i++){
+        for(int k = 0;k<p;k++){
+            cin>>b[i]
+        }
+    }
 }
