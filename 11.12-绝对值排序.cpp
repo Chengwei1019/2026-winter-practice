@@ -7,10 +7,12 @@
 输出描述
 一行，输出排序后的 n 个整数，相邻两个数之间用一个空格隔开。*/
 #include<iostream>
+#include<cmath>
 using namespace std;
 int main(){
     int n;
     int num;
+    int a;
     for(int i = 1;i<=n;i++){
         cin>>num;
     }
