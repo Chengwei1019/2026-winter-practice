@@ -42,7 +42,10 @@ int main(){
     }
 
     for(int i = 0;i<max;i++){
-        c[0] = 
+        c[i] = a[i] + b[i];
+        if(c[i] >= 10){
+            c[i] = c[i]
+        }
     }
     
 }
