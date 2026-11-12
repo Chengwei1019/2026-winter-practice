@@ -19,8 +19,8 @@ int main(){
     }
 
     for(int i = 1;i<n;i++){
-        for(int j = 1;j<n-j){
-            if(abs(a[i])>abs(a[i+j])){
+        for(int j = 1;j<n-){
+            if(abs(a[j])>abs(a[i+j])){
                 int temp;
                 temp = a[i+j];
                 a[i+j] = a[i];
