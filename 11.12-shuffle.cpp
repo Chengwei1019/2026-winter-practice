@@ -15,3 +15,8 @@
 当读入的字符串为单个字符 `-` 时，全部输入结束。
 ### 输出描述
 对于每组数据，单独输出一行，表示最终的牌堆字符串*/
+#include<iostream>
+using namespace std;
+int main(){
+    
+}
