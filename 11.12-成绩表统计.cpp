@@ -21,8 +21,12 @@ int main(){
             cin>>mark;
             a[i][k] = mark;
             total += mark;
+            cout
         }
+
     }
+
+
     for(int z = 0;z<n;z++){
         int total
     }
