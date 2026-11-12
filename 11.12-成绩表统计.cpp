@@ -30,7 +30,7 @@ int main(){
     double average;
     for(int i = 0;i<n;i++){
         int total1;
-        for(int k = 0;k<m:k++){
+        for(int k = 0;k<m;k++){
             total1 += a[i][k];
             average = total/n;
             cout<<fixed<<setprecision(2)<<average<<" ";
