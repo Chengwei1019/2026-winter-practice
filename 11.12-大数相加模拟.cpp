@@ -25,12 +25,12 @@ int main(){
 
     int c[201] = {};
     for(int i = 0;i<len2;i++){
-        c[i] = s2[len - i]
+        c[i] = s2[len - 1 - i]-'0';
     }
 
     int d[201] = {};
-    int max = sum1;
-    if(sum2 > sum1){
+    int max = len1;
+    if(len2 > sum1){
         max = sum2;
     }
 
