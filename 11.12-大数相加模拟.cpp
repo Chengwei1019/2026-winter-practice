@@ -31,7 +31,7 @@ int main(){
         max = len2;
     }
 
-    for(int i = max;i<max;i++){
+    for(int i = 0;i<max;i++){
         d[i] = b[i] + c[i];
         if(d[i] >= 10){
             d[i] = d[i] - 10;
