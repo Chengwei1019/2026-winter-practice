@@ -22,7 +22,9 @@ int main(){
         for(int j = 1;j<n-j){
             if(abs(a[i])>abs(a[i+j])){
                 int temp;
-                a
+                temp = a[i+j];
+                a[i+j] = a[i];
+                a[i]
             }
         }
     }
