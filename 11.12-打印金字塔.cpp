@@ -10,8 +10,7 @@ int main(){
     int n;
     cin>>n;
     for(int i = 1;i <= n;i++){
-        int j = 1;
-        int q = 2*n - 1;
+        for(int j = 1)
         
     }
 }
