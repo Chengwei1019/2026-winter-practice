@@ -17,7 +17,7 @@ int main(){
             }else if(j == n){
                 cout<<"1";
             }else if(j >n-i&&j<n){
-                cout<<
+                cout<<j - i
             }
         }
     }
