@@ -42,18 +42,20 @@ int main(){
     }
 
     for(int i = 0;i<max;i++){
-        c[i] = a[i] + b[i];
-        if(c[i] >= 10){
-            c[i] = c[i] - 10;
-            c[i+1] = 1;
+        d[i] = b[i] + c[i];
+        if(d[i] >= 10){
+            d[i] = d[i] - 10;
+            d[i+1] = 1;
         }
     }
 
-    if(c[max] != 0){
+    if(d[max] != 0){
         for(int i = max;i>=0;i--){
-            cout<<c[i];
+            cout<<d[i];
         }
-    }else if(c[max] = 0)
+    }else if(d[max] = 0){
+        
+    }
 
     
 }
