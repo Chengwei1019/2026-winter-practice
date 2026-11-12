@@ -21,7 +21,7 @@ int main(){
     int a[4][13] = {};
     while(cin>>sort>>num){
         if(sort = 'S'){
-            a[1][num] = 1;
+            a[0][num] = 1;
         }else if(sort = 'H'){
             a[2][num] = 1;
         }else if(sort = 'C'){
@@ -43,7 +43,9 @@ int main(){
                 }else if(i == 3){
                     sort = 'D';
                 }
+                cout<<sort<<" "<<m<<endl;
             }
         }
     }
+    return 0;
 }
