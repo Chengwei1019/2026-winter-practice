@@ -9,9 +9,9 @@
 using namespace std;
 int main(){
     char s1[201];
-    char s2p[]
-    cin>>a1;
-    cin>>a2;
+    char s2[201];
+    cin>>s1;
+    cin>>s2;
     int sum1 = 0;
     int sum2 = 0;
     int b1 = a1;
