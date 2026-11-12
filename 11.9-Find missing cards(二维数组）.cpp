@@ -20,6 +20,8 @@ int main(){
     int num;
     int a[4][13] = {};
     while(cin>>sort>>num){
-        if(sort = 'S')
+        if(sort = 'S'){
+            a[1][num]
+        }
     }
 }
