@@ -16,6 +16,7 @@ int main(){
     int mark;
     int a[50][10] = {};
     double b[10] = {};
+    double c[50] = {};
     for(int i = 0;i<n;i++){
         double total = 0;
         for(int k = 0;k<m;k++){
@@ -30,19 +31,12 @@ int main(){
     double average;
     for(int k = 0;k<m;k++){
         for(int i = 0;i<n;i++){
-            b[k] += a[]
+            b[k] += a[i][k];
         }
     }
     cout.unsetf(ios::fixed);
 
-    double max = b[0];
-    int max_num = 1;
-    for(int i=1;i<n;i++){
-        if(b[i] > b[0]){
-           max = b[i];
-           max_num = i + 1;
-        }
-    }
+   
 
     cout<<endl<<max_num<<endl;
 
