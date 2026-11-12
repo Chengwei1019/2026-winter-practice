@@ -12,8 +12,8 @@ int main(){
     char s2[201];
     cin>>s1;
     cin>>s2;
-    int len1 = strlen(s1);
-    int len2 = strlen(s2);
+    int len1 = (int)strlen(s1);
+    int len2 = (int)strlen(s2);
 
     int b[201] = {};
     for(int i = 0;i<len1;i++){
