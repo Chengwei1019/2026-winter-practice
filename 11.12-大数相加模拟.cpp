@@ -40,12 +40,12 @@ int main(){
     }
 
     if(d[max] != 0){
-        for(int i = 0;i<=max;i--){
+        for(int i = 0;i<=max;i++){
             cout<<d[i];
         }
     }else if(d[max] == 0){
-        for(int i = 0;i<max;i--){
-            cout<<c[i];
+        for(int i = 0;i<max;i++){
+            cout<<d[i];
         }
     }
     return 0;
