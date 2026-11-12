@@ -25,7 +25,7 @@ int main(){
             total += mark;
         }
         cout<<total<<endl;
-        c[i] = 
+        c[i] = total;
 
     }
 
@@ -39,8 +39,11 @@ int main(){
     }
     cout.unsetf(ios::fixed);
 
-    int max;
+    int max = c[0];
     int max_num = 1;
+    for(int i = 1;i<n;i++){
+        if(c[i] > max)
+    }
 
    
 
