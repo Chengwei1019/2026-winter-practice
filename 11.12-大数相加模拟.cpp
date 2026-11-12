@@ -36,6 +36,11 @@ int main(){
     }
 
     int c[200] = {};
-    int max
+    int max = sum1;
+    if(sum2 > sum1){
+        max = sum2;
+    }
+
+    for(int i = 0)
     
 }
