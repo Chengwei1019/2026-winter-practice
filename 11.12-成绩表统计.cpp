@@ -29,12 +29,13 @@ int main(){
     double average;
     for(int z = 0;z<n;z++){
         int total1;
-        for(int x = 0;x<m:x++){
-            total1 += a[z][x];
+        for(int c = 0;c < m:c++){
+            total1 += a[z][c];
             average = total/n;
             cout<<fixed<<setprecision(2)<<average<<" ";
         }
     }
 
     
+
 }
