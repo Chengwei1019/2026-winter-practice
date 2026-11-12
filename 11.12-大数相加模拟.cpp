@@ -19,7 +19,7 @@ int main(){
         sum1++;
     }
 
-    while(a2/10 == 0){
+    while(a2/10 != 0){
         a2 /= 10;
         sum2++;
     }
