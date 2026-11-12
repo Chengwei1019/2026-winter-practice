@@ -11,5 +11,6 @@ int main(){
     int a1;
     int a2;
     cin>>a1>>a2;
-    
+    int sum;
+    while()
 }
