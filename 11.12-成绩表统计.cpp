@@ -15,7 +15,7 @@ int main(){
     cin>>n>>m;
     int mark;
     int a[50][10] = {};
-    double b[50] = {};
+    double b[10] = {};
     for(int i = 0;i<n;i++){
         double total = 0;
         for(int k = 0;k<m;k++){
@@ -24,13 +24,12 @@ int main(){
             total += mark;
         }
         cout<<total<<endl;
-        b[i] = total;
 
     }
 
     double average;
     for(int i = 0;i<n;i++){
-            average = b[i]/m;
+            average = b[i]/n;
             cout<<fixed<<setprecision(2)<<average<<" ";
     }
     cout.unsetf(ios::fixed);
