@@ -23,6 +23,7 @@ int main(){
             cin>>mark;
             a[i][k] = mark;
             total += mark;
+            b[i] = total;
             cout<<total<<endl;
         }
 
@@ -30,7 +31,6 @@ int main(){
 
     double average;
     for(int i = 0;i<n;i++){
-        int total1;
         for(int k = 0;k<m;k++){
             total1 += a[i][k];
             average = total/n;
@@ -38,20 +38,6 @@ int main(){
         }
     }
 
-    int max;
-    for(int i = 0;i<m;i++){
-        max += a[0][i];
-    }
-
-    for(int i = 1;i<n;i++){
-        int total2;
-        for(int k = 0;k<m;k++){
-            total2 += a[i][k];
-            if(max < total2){
-                max = total2;
-            }
-        }
-    }
-    cout<<endl<<max;
+    
 
 }
