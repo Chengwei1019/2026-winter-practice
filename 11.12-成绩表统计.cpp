@@ -15,6 +15,9 @@ int main(){
     int num,mark;
     int a[50][10] = {};
     for(int i = 0;i<n;i++){
-        cin>>
+        cin>>num;
+        for(int k = 0;k<m;k++){
+            cin>>mark;
+        }
     }
 }
