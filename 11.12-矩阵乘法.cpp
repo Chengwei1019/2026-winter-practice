@@ -13,5 +13,5 @@ using namespace std;
 int main(){
     int n,m,p;
     cin>>n>>m>>p;
-    int a[32][32]
+    int a[32][32] = {}
 }
