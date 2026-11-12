@@ -11,9 +11,9 @@ int main(){
     cin>>n;
     for(int i = 1;i <= n;i++){
         for(int j = 1;j<=2*n - 1;j++){
-            if(i<n - j||i>n+j){
+            if(j<n - i||j>n+i){
                 cout<<" ";
-            }else if(i>=n-j&&i<n){
+            }else if(j>=n-i&&j<n){
                 for(int m = j;m>=2;m--){
                     cout<<m;
                 }
