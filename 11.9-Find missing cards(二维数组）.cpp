@@ -19,7 +19,8 @@ int main(){
     char sort;
     int num;
     int a[4][14] = {};
-    while(cin>>sort>>num){
+    for(int i = 1;i<= n;i++){
+        cin>>sort>>num;
         if(sort == 'S'){
             a[0][num] = 1;
         }else if(sort == 'H'){
