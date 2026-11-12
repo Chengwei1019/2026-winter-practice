@@ -14,13 +14,15 @@ int main(){
     cin>>a2;
     int sum1 = 0;
     int sum2 = 0;
-    while(a1/10 != 0){
-        a1 /= 10;
+    int b1 = a1;
+    int b2 = a2;
+    while(b1/10 != 0){
+        b1 /= 10;
         sum1++;
     }
 
-    while(a2/10 != 0){
-        a2 /= 10;
+    while(b2/10 != 0){
+        b2 /= 10;
         sum2++;
     }
 
