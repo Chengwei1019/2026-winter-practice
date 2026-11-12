@@ -18,6 +18,8 @@ int main(){
                 cout<<"1";
             }else if(j >n-i&&j<n){
                 cout<<n - j +1;
+            }else if(j>n&&j<n+i){
+                cout<<j - n +1;
             }
         }
     }
