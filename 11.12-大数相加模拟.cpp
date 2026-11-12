@@ -55,4 +55,5 @@ int main(){
     return 0;
 }
 
-/*用carry维护进位，重点关注。*/
+/*用carry维护进位，重点关注。
+还要看是怎么从字符数组转化do'azhuwei*/
