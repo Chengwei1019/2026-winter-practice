@@ -20,7 +20,10 @@ int main(){
 
     for(int i = 1;i<n;i++){
         for(int j = 1;j<n-j){
-            if(abs(a[]))
+            if(abs(a[i])>abs(a[i+j])){
+                int temp;
+                a
+            }
         }
     }
 }
