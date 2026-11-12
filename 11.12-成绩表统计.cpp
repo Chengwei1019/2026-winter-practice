@@ -33,6 +33,8 @@ int main(){
         for(int i = 0;i<n;i++){
             b[k] += a[i][k];
         }
+        average = b[k]/m;
+        cout<<fixed<<setprecision<<average<<" ";
     }
     cout.unsetf(ios::fixed);
 
