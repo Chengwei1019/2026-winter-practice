@@ -11,5 +11,5 @@ C 的第 i 行第 j 列等于：A 的第 i 行与 B 的第 j 列对应相乘后�
 #include<iostream>
 using namespace std;
 int main(){
-    
+    int
 }
