@@ -20,5 +20,7 @@ int main(){
         a = abs(num);
         b[i] = a;
     }
-    
+    for(int m = 0;m<n;m++){
+        if(b[m+1])
+    }
 }
