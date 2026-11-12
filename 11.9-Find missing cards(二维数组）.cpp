@@ -12,4 +12,7 @@
 1. 按花色顺序输出：黑桃 → 红桃 → 梅花 → 方块
 2. 同一花色内，按点数从小到大的顺序输出*/
 #include<iostream>
-using anmespa
+using namespace std;
+int main(){
+    
+}
