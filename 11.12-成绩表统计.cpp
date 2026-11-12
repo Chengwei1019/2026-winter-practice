@@ -36,8 +36,9 @@ int main(){
         }
     }
 
+    int max;
     for(int i = 0;i<m;i++){
-        int max 
+        max += a[0][i];
     }
 
 }
