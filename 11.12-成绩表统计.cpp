@@ -36,6 +36,8 @@ int main(){
         }
     }
 
-    for(int i = 0;i<m
+    for(int i = 0;i<m;i++){
+        int max 
+    }
 
 }
