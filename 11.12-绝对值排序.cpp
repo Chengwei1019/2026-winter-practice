@@ -13,6 +13,8 @@ int main(){
     int n;
     int num;
     int a;
+    int temp;
+    int a[] = {};
     for(int i = 1;i<=n;i++){
         cin>>num;
         a = abs(num);
