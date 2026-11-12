@@ -13,7 +13,7 @@ using namespace std;
 int main(){
     int n,m;
     cin>>n>>m;
-    int num,mark;
+    int mark;
     double total = 0;
     int a[50][10] = {};
     double b[50] = {};
