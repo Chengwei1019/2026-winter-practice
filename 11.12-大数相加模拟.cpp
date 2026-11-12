@@ -54,7 +54,9 @@ int main(){
             cout<<d[i];
         }
     }else if(d[max] = 0){
-        
+        for(int i = max - 1;i>=0;i--){
+            cout<<c[i];
+        }
     }
 
     
