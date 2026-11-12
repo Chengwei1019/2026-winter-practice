@@ -16,6 +16,10 @@ int main(){
     int a[50][50] = {};
 
     for(int i = 0;i<n;i++){
-        for(int k = 0;)
+        for(int k = 0;k<m;k++){
+            cin>>a[n][m];
+        }
     }
+
+    
 }
