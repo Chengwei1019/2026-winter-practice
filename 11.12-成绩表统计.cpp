@@ -29,6 +29,7 @@ int main(){
     double average;
     for(int i = 0;i<n;i++){
         int total1;
+        int max = 
         for(int k = 0;k < m:k++){
             total1 += a[i][k];
             average = total/n;
@@ -36,6 +37,6 @@ int main(){
         }
     }
 
-    for(int i = 0;
+    for(int i = 0;i<
 
 }
