@@ -29,8 +29,7 @@ int main(){
 
     double average;
     for(int i = 0;i<n;i++){
-            average = b[i]/n;
-            cout<<fixed<<setprecision(2)<<average<<" ";
+            b[i] +=
     }
     cout.unsetf(ios::fixed);
 
