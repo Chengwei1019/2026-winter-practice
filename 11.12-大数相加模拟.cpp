@@ -5,3 +5,10 @@
 共两行。每行一个非负整数，长度在 1 到 200 之间。除了数字 0 本身以外，不会有前导 0。
 输出描述
 输出一行，两个数的和。不要输出前导 0。*/
+#include<iostream>
+using namespace std;
+int main(){
+    int a1;
+    int a2;
+    cin>>
+}
