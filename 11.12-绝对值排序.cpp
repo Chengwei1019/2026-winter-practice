@@ -10,26 +10,6 @@
 #include<cmath>
 using namespace std;
 int main(){
-    int n;
-    int num;
-    int a;
-    int temp;
-    int b[100] = {};
-    for(int i = 0;i<n;i++){
-        cin>>num;
-        a = abs(num);
-        b[i] = a;
-    }
-    for(int m = 1;m<n;m++){
-        if(b[m] > b[m-1]){
-            temp = b[m];
-            b[m] = b[m-1];
-            b[m-1] = temp;
-        }
-    }
-
-    for(int i = 0;i<n;i++){
-        cout<<b[i]<<" ";
-    }
-    return 0;
+    
 }
+   
