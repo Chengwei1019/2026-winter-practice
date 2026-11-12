@@ -16,5 +16,7 @@ using namespace std;
 int main(){
     int n;
     cin>>n;
-    
+    char sort;
+    int num;
+    int a[4][13] = {}
 }
