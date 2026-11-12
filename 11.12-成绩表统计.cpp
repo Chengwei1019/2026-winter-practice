@@ -23,8 +23,7 @@ int main(){
             a[i][k] = mark;
             total += mark;
             b[i] = total;
-            cout<<total<<endl;
-        }
+        }cout<<total<<endl;
 
     }
 
