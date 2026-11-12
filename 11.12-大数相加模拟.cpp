@@ -41,6 +41,8 @@ int main(){
         max = sum2;
     }
 
-    for(int i = 0)
+    for(int i = 0;i<max;i++){
+        c[]
+    }
     
 }
