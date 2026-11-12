@@ -42,7 +42,10 @@ int main(){
     int max = c[0];
     int max_num = 1;
     for(int i = 1;i<n;i++){
-        if(c[i] > max)
+        if(c[i] > max){
+            max = c[i];
+            max_num = i+1;
+        }
     }
 
    
