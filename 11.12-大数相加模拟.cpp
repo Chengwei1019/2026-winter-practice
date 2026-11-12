@@ -53,7 +53,7 @@ int main(){
         for(int i = max;i>=0;i--){
             cout<<d[i];
         }
-    }else if(d[max] = 0){
+    }else if(d[max] == 0){
         for(int i = max - 1;i>=0;i--){
             cout<<c[i];
         }
