@@ -22,7 +22,10 @@ int main(){
     }
     for(int m = 1;m<n;m++){
         if(b[m] > b[m-1]){
-            temp = b[]
+            temp = b[m];
+            b[m] = b[m-1];
+            b[m-1] = temp;
         }
     }
+    
 }
