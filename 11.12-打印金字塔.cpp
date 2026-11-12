@@ -13,9 +13,9 @@ int main(){
         for(int j = 1;j<=2*n - 1;j++){
             if(i<n - j||i>n+j){
                 cout<<" ";
-            }if(i>=n-j&&i<=n+j&&i!=n){
+            }if(i>=n-j&&i<=n){
                 for(int m = j;m>=2;m--){
-                    
+                    cout<<m;
                 }
             }
         }
