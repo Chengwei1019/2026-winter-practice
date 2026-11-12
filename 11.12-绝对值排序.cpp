@@ -39,5 +39,13 @@ int main(){
 /*1.可以直接比较绝对值大小来改变原数组顺序
     使用abs(a[i])但需要前缀#include<cmath>
   2.一组顺序是乱的数，该怎么从小到大排序？
-    用冒泡排序
+    用冒泡排序：比较用绝对值，交换原始数
+    for(int i = 0; i < n-1; i++){
+        for(int j = 0; j < n-1 - i; j++){
+            // 比较两个数的绝对值
+            if(abs(arr[j]) > abs(arr[j+1])){
+                int temp = arr[j];
+                arr[j] = arr[j+1];
+                arr[j+1] = temp;
+    yao'zhu'yi'zh
 */
