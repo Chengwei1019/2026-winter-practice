@@ -11,8 +11,15 @@ int main(){
     int a1;
     int a2;
     cin>>a1>>a2;
-    int sum;
+    int sum1 = 0;
     while(a1/10 = 0){
-        a1 
+        a1 /= 10;
+        sum++;
     }
+
+    while(a2/10 = 0){
+        a2 /= 10;
+        sum++;
+    }
+    
 }
