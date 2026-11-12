@@ -24,8 +24,8 @@ int main(){
     }
 
     int b[200] = {};
-    for(int i = 1;i<=sum1;i++){
-        
+    for(int i = 0;i<sum1;i++){
+        b[i] = a1 % 10
     }
     
 }
