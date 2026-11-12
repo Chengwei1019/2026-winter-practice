@@ -20,13 +20,12 @@ int main(){
 
     int b[201] = {};
     for(int i = 0;i<len1;i++){
-        b[i] = s[len1 - 1 - 1]-'0';
+        b[i] = s1[len1 - 1 - 1]-'0';
     }
 
     int c[201] = {};
-    for(int i = 0;i<sum2;i++){
-        c[i] = a2 % 10;
-        a2 = a2 /10;
+    for(int i = 0;i<len2;i++){
+        c[i] = s2[len - i]
     }
 
     int d[201] = {};
