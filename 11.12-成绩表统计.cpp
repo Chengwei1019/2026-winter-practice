@@ -7,38 +7,50 @@
 先输出 n 行：每名学生的总分；
 再输出 1 行：m 门课的平均分，保留 2 位小数，以一个空格分隔；
 最后输出 1 行：总分最高的学生的编号（从 1 开始；若并列，输出编号最小者）。*/
-#include <iostream>
-#include <iomanip>
+#include<iostream>
+#include<iomanip>
 using namespace std;
-
-int main() {
-    int n, m;
-    cin >> n >> m;
-
+int main(){
+    int n,m;
+    cin>>n>>m;
+    int num,mark;
+    double total = 0;
     int a[50][10] = {};
-    double courseSum[10] = {};
-    int bestStudent = 1, bestTotal = -1;
-
-    for (int i = 0; i < n; i++) {
-        int studentTotal = 0;
-        for (int j = 0; j < m; j++) {
-            cin >> a[i][j];
-            studentTotal += a[i][j];
-            courseSum[j] += a[i][j];
+    for(int i = 0;i<n;i++){
+        cin>>num;
+        for(int k = 0;k<m;k++){
+            cin>>mark;
+            a[i][k] = mark;
+            total += mark;
+            cout<<total<<endl;
         }
-        cout << studentTotal << '\n';
 
-        if (studentTotal > bestTotal) {
-            bestTotal = studentTotal;
-            bestStudent = i + 1;
+    }
+
+    double average;
+    for(int i = 0;i<n;i++){
+        int total1;
+        for(int k = 0;k<m:k++){
+            total1 += a[i][k];
+            average = total/n;
+            cout<<fixed<<setprecision(2)<<average<<" ";
         }
     }
 
-    for (int j = 0; j < m; j++) {
-        if (j > 0) cout << ' ';
-        cout << fixed << setprecision(2) << courseSum[j] / n;
+    int max;
+    for(int i = 0;i<m;i++){
+        max += a[0][i];
     }
-    cout << '\n' << bestStudent << '\n';
 
-    return 0;
+    for(int i = 1;i<n;i++){
+        int total2;
+        for(int k = 0;k<m;k++){
+            total2 += a[i][k];
+            if(max < total2){
+                max = total2;
+            }
+        }
+    }
+    cout<<endl<<max;
+
 }
