@@ -14,6 +14,8 @@ int main(){
         for(int j = 1;j<=2*n - 1){
             if(j <= n-i||j >= n+i){
                 cout<<" ";
-            }else if
+            }else if(j == n){
+                cout<<"1";
+            }else if()
         }
     }
