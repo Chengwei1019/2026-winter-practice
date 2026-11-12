@@ -41,4 +41,9 @@ int main(){
         max += a[0][i];
     }
 
+    for(int i = 1;i<n;i++){
+        int total2;
+        for()
+    }
+
 }
