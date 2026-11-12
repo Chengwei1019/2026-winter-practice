@@ -49,8 +49,11 @@ int main(){
         }
     }
 
-    for(c[max] != 0){
-        
-    }
+    if(c[max] != 0){
+        for(int i = max;i>=0;i--){
+            cout<<c[i];
+        }
+    }else if()
+
     
 }
