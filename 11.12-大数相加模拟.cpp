@@ -42,13 +42,13 @@ int main(){
         max_len++;
     }
 
-    // 倒序输出，跳过前导零    205个数 里面会有许多
+    // 倒序输出，跳过前导零    205大小空间，后面会有很多零。
     int i = max_len - 1;
     while(i > 0 && d[i] == 0){
         i--;
     }
     for(; i >= 0; i--){
-        cout << d[i];
+         cout<< d[i];
     }
     cout << endl;
 
