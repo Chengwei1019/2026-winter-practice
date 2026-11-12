@@ -14,10 +14,10 @@ int main(){
     int n,m;
     cin>>n>>m;
     int mark;
-    double total = 0;
     int a[50][10] = {};
     double b[50] = {};
     for(int i = 0;i<n;i++){
+        double total = 0;
         for(int k = 0;k<m;k++){
             cin>>mark;
             a[i][k] = mark;
