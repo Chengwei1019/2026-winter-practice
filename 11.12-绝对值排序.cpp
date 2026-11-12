@@ -7,3 +7,8 @@
 输出描述
 一行，输出排序后的 n 个整数，相邻两个数之间用一个空格隔开。*/
 #include<iostream>
+using namespace std;
+int main(){
+    int n;
+    for(int i = 1)
+}
