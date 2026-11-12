@@ -12,8 +12,8 @@ int main(){
     char s2[201];
     cin>>s1;
     cin>>s2;
-    int sum1 = 0;
-    int sum2 = 0;
+    int len1 = strlen(s1);
+    int len2 = strlen(s2);
     int b1 = a1;
     int b2 = a2;
     while(b1/10 != 0){
