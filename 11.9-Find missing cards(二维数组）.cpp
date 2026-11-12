@@ -23,11 +23,11 @@ int main(){
         if(sort = 'S'){
             a[0][num] = 1;
         }else if(sort = 'H'){
-            a[2][num] = 1;
+            a[1][num] = 1;
         }else if(sort = 'C'){
-            a[3][num] = 1;
+            a[2][num] = 1;
         }else if(sort = 'D'){
-            a[4][num] = 1;
+            a[3][num] = 1;
         }
     }
 
