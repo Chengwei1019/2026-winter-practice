@@ -32,7 +32,9 @@ int main(){
         for(int x = 0;x<m:x++){
             total1 += a[z][x];
             average = total/n;
-            cout<<fixed<<setprecision(2)<<average<<" "
+            cout<<fixed<<setprecision(2)<<average<<" ";
         }
     }
+
+    
 }
