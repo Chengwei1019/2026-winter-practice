@@ -24,6 +24,6 @@ int main(){
     }
 
     int b[200] = {}
-    for(int )
+    for(int i = sum;)
     
 }
