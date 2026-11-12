@@ -14,8 +14,7 @@ int main(){
     cin>>s2;
     int len1 = strlen(s1);
     int len2 = strlen(s2);
-    int b1 = a1;
-    int b2 = a2;
+
     
 
     int b[201] = {};
@@ -30,8 +29,8 @@ int main(){
 
     int d[201] = {};
     int max = len1;
-    if(len2 > sum1){
-        max = sum2;
+    if(len2 > len1){
+        max = len2;
     }
 
     for(int i = 0;i<max;i++){
