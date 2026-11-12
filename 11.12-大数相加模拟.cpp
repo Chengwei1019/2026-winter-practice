@@ -13,7 +13,7 @@ int main(){
     cin>>a1>>a2;
     int sum1 = 0;
     int sum2 = 0;
-    while(a1/10 == 0){
+    while(a1/10 != 0){
         a1 /= 10;
         sum1++;
     }
