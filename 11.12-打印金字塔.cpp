@@ -26,3 +26,27 @@ int main(){
     }
     return 0;
 }
+
+
+/*法二
+#include<iostream>
+#include<cmath>
+using namespace std;
+
+int main(){
+    int n;
+    cin >> n;
+    for(int i = 1; i <= n; i++){
+        for(int j = 1; j <= 2*n - 1; j++){
+            int dist = abs(j - n);
+            if(dist >= i){
+                cout << " ";
+            }else{
+                cout << dist + 1;
+            }
+        }
+        cout << endl;
+    }
+    return 0;
+}
+*/
