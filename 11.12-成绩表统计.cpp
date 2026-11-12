@@ -24,7 +24,6 @@ int main(){
             total += mark;
             b[i] = total;
             cout<<total<<endl;
-            total = 0;
         }
 
     }
