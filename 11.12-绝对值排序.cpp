@@ -49,5 +49,5 @@ int main(){
                 arr[j] = arr[j+1];
                 arr[j+1] = temp;
     要注意这里面的两套循环.
-   ②
+   ②用两套数组，一套yuan'shu
 */
