@@ -15,8 +15,6 @@ int main(){
     int len1 = strlen(s1);
     int len2 = strlen(s2);
 
-    
-
     int b[201] = {};
     for(int i = 0;i<len1;i++){
         b[i] = s1[len1 - 1 - 1]-'0';
@@ -24,7 +22,7 @@ int main(){
 
     int c[201] = {};
     for(int i = 0;i<len2;i++){
-        c[i] = s2[len - 1 - i]-'0';
+        c[i] = s2[len2 - 1 - i]-'0';
     }
 
     int d[201] = {};
