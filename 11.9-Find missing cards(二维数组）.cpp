@@ -27,7 +27,11 @@ int main(){
         }else if(sort = 'C'){
             a[3][num] = 1;
         }else if(sort = 'D'){
-            a[4][num]
+            a[4][num] = 1;
         }
+    }
+
+    for(int i = 0;i<4;i++){
+        
     }
 }
