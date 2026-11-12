@@ -50,7 +50,7 @@ int main(){
     for(; i >= 0; i--){
          cout<< d[i];
     }
-    cout << endl;
+    cout<<endl;
 
     return 0;
 }
