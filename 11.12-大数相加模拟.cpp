@@ -16,18 +16,10 @@ int main(){
     int len2 = strlen(s2);
     int b1 = a1;
     int b2 = a2;
-    while(b1/10 != 0){
-        b1 /= 10;
-        sum1++;
-    }
-
-    while(b2/10 != 0){
-        b2 /= 10;
-        sum2++;
-    }
+    
 
     int b[201] = {};
-    for(int i = 0;i<sum1;i++){
+    for(int i = 0;i<len1;i++){
         b[i] = a1 % 10;
         a1 = a1 / 10;
     }
