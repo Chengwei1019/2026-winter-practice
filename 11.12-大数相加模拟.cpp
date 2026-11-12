@@ -42,7 +42,7 @@ int main(){
     }
 
     for(int i = 0;i<max;i++){
-        c[]
+        c[0] = 
     }
     
 }
