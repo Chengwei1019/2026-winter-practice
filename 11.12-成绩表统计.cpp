@@ -8,6 +8,7 @@
 再输出 1 行：m 门课的平均分，保留 2 位小数，以一个空格分隔；
 最后输出 1 行：总分最高的学生的编号（从 1 开始；若并列，输出编号最小者）。*/
 #include<iostream>
+#include<iomanip>
 using namespace std;
 int main(){
     int n,m;
@@ -29,7 +30,7 @@ int main(){
     double average;
     for(int i = 0;i<n;i++){
         int total1;
-        for(int k = 0;k < m:k++){
+        for(int k = 0;k< m:k++){
             total1 += a[i][k];
             average = total/n;
             cout<<fixed<<setprecision(2)<<average<<" ";
@@ -45,8 +46,11 @@ int main(){
         int total2;
         for(int k = 0;k<m;k++){
             total2 += a[i][k];
-            if(max <)
+            if(max < total2){
+                max = total2;
+            }
         }
     }
+    cout<<endl<<max;
 
 }
