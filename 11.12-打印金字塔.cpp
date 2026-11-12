@@ -21,6 +21,8 @@ int main(){
                 for(int m = 2;m<=j;m++){
                     cout<<m;
                 }
-            }  
+            }else if(i = n){
+                
+            }
     }
 }
