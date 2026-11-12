@@ -8,8 +8,8 @@
 #include<iostream>
 using namespace std;
 int main(){
-    int a1;
-    int a2;
+    long long a1;
+    long long a2;
     cin>>a1>>a2;
     int sum1 = 0;
     int sum2 = 0;
