@@ -47,5 +47,5 @@ int main(){
                 int temp = arr[j];
                 arr[j] = arr[j+1];
                 arr[j+1] = temp;
-    yao'zhu'yi'zh
+    要注意这里面的两套循环，qi'shi
 */
