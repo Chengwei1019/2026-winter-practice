@@ -16,6 +16,7 @@ int main(){
                 cout<<" ";
             }else if(j == n){
                 cout<<"1";
-            }else if()
+            }else if(j>n -i)
         }
     }
+}
