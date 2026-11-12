@@ -18,5 +18,8 @@ int main(){
     cin>>n;
     char sort;
     int num;
-    int a[4][13] = {}
+    int a[4][13] = {};
+    while(cin>>sort>>num){
+        if(sort = 'S')
+    }
 }
