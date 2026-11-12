@@ -6,49 +6,51 @@
 输出描述
 输出一行，两个数的和。不要输出前导 0。*/
 #include<iostream>
+#include<cstring>
 using namespace std;
+
 int main(){
-    char s1[201];
-    char s2[201];
-    cin>>s1;
-    cin>>s2;
+    char s1[201], s2[201];
+    cin >> s1 >> s2;
+
     int len1 = (int)strlen(s1);
     int len2 = (int)strlen(s2);
 
     int b[201] = {};
-    for(int i = 0;i<len1;i++){
-        b[i] = s1[len1 - 1 - i]-'0';
+    for(int i = 0; i < len1; i++){
+        b[i] = s1[len1 - 1 - i] - '0'; // 修正：用i做偏移
     }
 
     int c[201] = {};
-    for(int i = 0;i<len2;i++){
-        c[i] = s2[len2 - 1 - i]-'0';
+    for(int i = 0; i < len2; i++){
+        c[i] = s2[len2 - 1 - i] - '0';
     }
 
     int d[201] = {};
-    int max = len1;
-    if(len2 > len1){
-        max = len2;
+    int max_len = len1 > len2 ? len1 : len2;
+    int carry = 0; // 单独维护进位
+
+    // 逐位相加，进位参与运算
+    for(int i = 0; i < max_len; i++){
+        int sum = b[i] + c[i] + carry;
+        d[i] = sum % 10;
+        carry = sum / 10;
+    }
+    // 处理最高位的进位
+    if(carry != 0){
+        d[max_len] = carry;
+        max_len++;
     }
 
-    for(int i = 0;i<max;i++){
-        d[i] = b[i] + c[i];
-        if(d[i] >= 10){
-            d[i] = d[i] - 10;
-            d[i+1] = 1;
-        }
+    // 倒序输出，跳过前导零    205个数 里面会有许多
+    int i = max_len - 1;
+    while(i > 0 && d[i] == 0){
+        i--;
     }
+    for(; i >= 0; i--){
+        cout << d[i];
+    }
+    cout << endl;
 
-    if(d[max] != 0){
-        for(int i = 0;i<=max;i++){
-            cout<<d[i];
-        }
-    }else if(d[max] == 0){
-        for(int i = 0;i<max;i++){
-            cout<<d[i];
-        }
-    }
     return 0;
-
-    
 }
