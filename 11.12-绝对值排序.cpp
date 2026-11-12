@@ -19,12 +19,12 @@ int main(){
     }
 
     for(int i = 1;i<n;i++){
-        for(int j = 1;j<n-1-i){
+        for(int j = 1;j<n-1-i;j++){
             if(abs(a[j])>abs(a[j+1])){
                 int temp;
                 temp = a[j+1];
                 a[j+1] = a[j];
-                a[i] = temp;
+                a[j] = temp;
             }
         }
     }
