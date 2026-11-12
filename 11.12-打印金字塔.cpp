@@ -17,11 +17,11 @@ int main(){
                 for(int m = j;m>=2;m--){
                     cout<<m;
                 }
-            }else if(i<=n-j&&i>n){
+            }else if(j<=n-i&&j>n){
                 for(int m = 2;m<=j;m++){
                     cout<<m;
                 }
-            }else if(i = n){
+            }else if(j = n){
                 cout<<"1";
             }
     }
