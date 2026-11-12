@@ -12,5 +12,7 @@ int main(){
     int a2;
     cin>>a1>>a2;
     int sum;
-    while()
+    while(a1/10 = 0){
+        a1 
+    }
 }
