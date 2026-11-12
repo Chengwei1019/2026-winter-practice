@@ -35,6 +35,9 @@ int main(){
             cout<<fixed<<setprecision(2)<<average<<" ";
     }
 
+    int max = b[0];
+    for(int i=)
+
     
 
 }
