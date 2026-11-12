@@ -54,3 +54,5 @@ int main(){
 
     return 0;
 }
+
+/*用carry维护进位，zhong'dian*/
