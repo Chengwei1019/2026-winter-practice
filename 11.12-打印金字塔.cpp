@@ -11,10 +11,12 @@ int main(){
     cin>>n;
     for(int i = 1;i <= n;i++){
         for(int j = 1;j<=2*n - 1;j++){
-            if(n<n - j||n>n+j){
+            if(i<n - j||i>n+j){
                 cout<<" ";
-            }if(n>=n-j&&n<=n+j&&n!=){
-                for(int m = )
+            }if(i>=n-j&&i<=n+j&&i!=n){
+                for(int m = j;m>=2;m--){
+                    
+                }
             }
         }
         
