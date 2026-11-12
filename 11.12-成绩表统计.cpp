@@ -43,7 +43,10 @@ int main(){
 
     for(int i = 1;i<n;i++){
         int total2;
-        for()
+        for(int k = 0;k<m;k++){
+            total2 += a[i][k];
+            if(max <)
+        }
     }
 
 }
