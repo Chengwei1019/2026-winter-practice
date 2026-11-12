@@ -14,10 +14,10 @@ int main(){
     int num;
     int a;
     int temp;
-    int a[] = {};
-    for(int i = 1;i<=n;i++){
+    int b[] = {};
+    for(int i = 0;i<n;i++){
         cin>>num;
         a = abs(num);
-        
+        b[i] = 
     }
 }
