@@ -36,7 +36,11 @@ int main(){
     }
 
     int max = b[0];
-    for(int i=)
+    for(int i=1;i<n;i++){
+        if(b[i] > b[0]){
+
+        }
+    }
 
     
 
