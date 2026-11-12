@@ -34,6 +34,7 @@ int main(){
             average = b[i]/n;
             cout<<fixed<<setprecision(2)<<average<<" ";
     }
+    std
 
     double max = b[0];
     int max_num = 1;
