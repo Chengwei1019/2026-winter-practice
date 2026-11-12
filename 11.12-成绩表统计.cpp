@@ -13,12 +13,17 @@ int main(){
     int n,m;
     cin>>n>>m;
     int num,mark;
+    int total = 0;
     int a[50][10] = {};
     for(int i = 0;i<n;i++){
         cin>>num;
         for(int k = 0;k<m;k++){
             cin>>mark;
             a[i][k] = mark;
+            total += mark;
         }
+    }
+    for(int z = 0;z<n;z++){
+        int total
     }
 }
