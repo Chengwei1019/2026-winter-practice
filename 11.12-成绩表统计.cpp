@@ -29,7 +29,9 @@ int main(){
 
     double average;
     for(int k = 0;k<m;k++){
-        for
+        for(int i = 0;i<n;i++){
+            b[k] += a[]
+        }
     }
     cout.unsetf(ios::fixed);
 
