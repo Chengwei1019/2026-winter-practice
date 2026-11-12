@@ -18,7 +18,7 @@ int main(){
     cin>>n;
     char sort;
     int num;
-    int a[4][13] = {};
+    int a[4][14] = {};
     while(cin>>sort>>num){
         if(sort = 'S'){
             a[0][num] = 1;
@@ -32,7 +32,7 @@ int main(){
     }
 
     for(int i = 0;i<4;i++){
-        for(int m = 0;m < 13;m++){
+        for(int m = 1;m < 14;m++){
             if(a[i][m] == 0){
                 if(i == 0){
                     sort = 'S';
