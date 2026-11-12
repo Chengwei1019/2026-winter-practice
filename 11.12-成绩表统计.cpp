@@ -18,6 +18,7 @@ int main(){
         cin>>num;
         for(int k = 0;k<m;k++){
             cin>>mark;
+            a[i][k] = mark;
         }
     }
 }
