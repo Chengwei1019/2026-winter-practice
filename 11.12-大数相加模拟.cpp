@@ -29,13 +29,12 @@ int main(){
         a1 = a1 / 10;
     }
 
-    int c[200] = {};
+    int c[201] = {};
     for(int i = 0;i<sum2;i++){
         c[i] = a2 % 10;
         a2 = a2 /10;
     }
 
-    int c[200] = {};
     int max = sum1;
     if(sum2 > sum1){
         max = sum2;
@@ -53,7 +52,7 @@ int main(){
         for(int i = max;i>=0;i--){
             cout<<c[i];
         }
-    }else if()
+    }else if(c[max] = 0)
 
     
 }
