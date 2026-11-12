@@ -20,7 +20,8 @@ int main(){
         a = abs(num);
         b[i] = a;
     }
-    for(int m = 0;m<n;m++){
-        if(b[m+1])
+    int right = b[0];
+    for(int m = 1;m<n;m++){
+        if(b[m] > right)
     }
 }
