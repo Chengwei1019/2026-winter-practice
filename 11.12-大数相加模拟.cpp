@@ -17,7 +17,7 @@ int main(){
 
     int b[201] = {};
     for(int i = 0;i<len1;i++){
-        b[i] = s1[len1 - 1 - 1]-'0';
+        b[i] = s1[len1 - 1 - i]-'0';
     }
 
     int c[201] = {};
