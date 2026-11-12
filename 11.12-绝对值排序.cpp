@@ -19,11 +19,11 @@ int main(){
     }
 
     for(int i = 1;i<n;i++){
-        for(int j = 1;j<n-){
-            if(abs(a[j])>abs(a[i+j])){
+        for(int j = 1;j<n-1-i){
+            if(abs(a[j])>abs(a[j+1])){
                 int temp;
-                temp = a[i+j];
-                a[i+j] = a[i];
+                temp = a[j+1];
+                a[j+1] = a[j];
                 a[i] = temp;
             }
         }
