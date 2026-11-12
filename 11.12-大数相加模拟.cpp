@@ -23,7 +23,9 @@ int main(){
         sum2++;
     }
 
-    int b[200] = {}
-    for(int i = sum;)
+    int b[200] = {};
+    for(int i = 1;i<=sum1;i++){
+
+    }
     
 }
