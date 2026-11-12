@@ -25,6 +25,7 @@ int main(){
             total += mark;
         }
         cout<<total<<endl;
+        c[i] = 
 
     }
 
@@ -37,6 +38,9 @@ int main(){
         cout<<fixed<<setprecision<<average<<" ";
     }
     cout.unsetf(ios::fixed);
+
+    int max;
+    int max_num = 1;
 
    
 
