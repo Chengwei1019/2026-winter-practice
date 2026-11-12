@@ -28,8 +28,8 @@ int main(){
     }
 
     double average;
-    for(int i = 0;i<n;i++){
-            b[i] +=
+    for(int k = 0;k<m;k++){
+        for
     }
     cout.unsetf(ios::fixed);
 
