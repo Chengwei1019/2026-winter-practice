@@ -44,8 +44,13 @@ int main(){
     for(int i = 0;i<max;i++){
         c[i] = a[i] + b[i];
         if(c[i] >= 10){
-            c[i] = c[i]
+            c[i] = c[i] - 10;
+            c[i+1] = 1;
         }
+    }
+
+    for(c[max] != 0){
+        
     }
     
 }
