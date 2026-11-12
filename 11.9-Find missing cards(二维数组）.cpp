@@ -24,6 +24,10 @@ int main(){
             a[1][num] = 1;
         }else if(sort = 'H'){
             a[2][num] = 1;
-        }else if(sp)
+        }else if(sort = 'C'){
+            a[3][num] = 1;
+        }else if(sort = 'D'){
+            a[4][num]
+        }
     }
 }
