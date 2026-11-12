@@ -18,7 +18,7 @@ int main(){
         a[i] = num;
     }
 
-    for(int i = 1;i<n;i++){
+    for(int i = 0;i<n;i++){
         for(int j = 1;j<n-1-i;j++){
             if(abs(a[j])>abs(a[j+1])){
                 int temp;
