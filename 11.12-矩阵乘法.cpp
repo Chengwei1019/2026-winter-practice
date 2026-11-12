@@ -8,3 +8,8 @@ C 的第 i 行第 j 列等于：A 的第 i 行与 B 的第 j 列对应相乘后�
 接下来 m 行，每行 p 个整数，是矩阵 B。
 输出描述
 输出 n 行，每行 p 个整数，表示矩阵 C。同一行相邻两个数之间用一个空格隔开，行末不要有多余空格。*/
+#include<iostream>
+using namespace std;
+int main(){
+    
+}
