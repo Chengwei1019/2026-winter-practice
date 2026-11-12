@@ -36,7 +36,13 @@ int main(){
             if(a[i][m] == 0){
                 if(i == 0){
                     sort = 'S';
-                }else if(i == 1)
+                }else if(i == 1){
+                    sort = 'H';
+                }else if(i == 2){
+                    sort = 'C';
+                }else if(i == 3){
+                    sort = 'D';
+                }
             }
         }
     }
