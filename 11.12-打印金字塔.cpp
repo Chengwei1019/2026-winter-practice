@@ -17,8 +17,8 @@ int main(){
                 for(int m = j;m>=2;m--){
                     cout<<m;
                 }
-            }else if(i>=n-j&&i<n){
-                for(int m = j;m>=2;m--){
+            }else if(i<=n-j&&i>n){
+                for(int m = 2;m<=j;m++){
                     cout<<m;
         }
         
