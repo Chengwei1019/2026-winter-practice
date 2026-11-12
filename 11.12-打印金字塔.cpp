@@ -22,7 +22,8 @@ int main(){
                     cout<<m;
                 }
             }else if(i = n){
-                
+                cout<<"1";
             }
     }
+    return 0;
 }
