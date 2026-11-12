@@ -13,39 +13,41 @@ using namespace std;
 int main(){
     int n,m;
     cin>>n>>m;
-    int num,mark;
-    double total = 0;
     int a[50][10] = {};
-    double b[50] = {};
+    int b[50] = {};
     for(int i = 0;i<n;i++){
-        cin>>num;
         for(int k = 0;k<m;k++){
-            cin>>mark;
-            a[i][k] = mark;
-            total += mark;
-            b[i] = total;
-            cout<<total<<endl;
+            cin>>a[i][k];
+            b[i] += a[i][k];
         }
-
     }
 
-    double average;
     for(int i = 0;i<n;i++){
-            average = b[i]/n;
-            cout<<fixed<<setprecision(2)<<average<<" ";
+        cout<<b[i]<<endl;
     }
-    cout.unsetf(ios::fixed);
 
-    double max = b[0];
+    cout<<fixed<<setprecision(2);
+    for(int k = 0;k<m;k++){
+        int sum = 0;
+        for(int i = 0;i<n;i++){
+            sum += a[i][k];
+        }
+        if(k > 0){
+            cout<<" ";
+        }
+        cout<<(double)sum/n;
+    }
+    cout<<endl;
+
+    int max = b[0];
     int max_num = 1;
-    for(int i=1;i<n;i++){
-        if(b[i] > b[0]){
-           max = b[i];
-           max_num = i + 1;
+    for(int i = 1;i<n;i++){
+        if(b[i] > max){
+            max = b[i];
+            max_num = i + 1;
         }
     }
-
-    cout<<endl<<max_num<<endl;
+    cout<<max_num<<endl;
 
 
 
