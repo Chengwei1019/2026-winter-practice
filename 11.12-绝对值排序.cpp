@@ -48,5 +48,6 @@ int main(){
                 int temp = arr[j];
                 arr[j] = arr[j+1];
                 arr[j+1] = temp;
-    要注意这里面的两套循环，起始都是0是因为数组。
+    要注意这里面的两套循环.
+   ②
 */
