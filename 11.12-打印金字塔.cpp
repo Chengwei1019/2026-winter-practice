@@ -25,7 +25,7 @@ int main(){
                 cout<<"1";
             }
     }
-   cout<<endl;
+    cout<<endl;
 }
 return 0;
 }
