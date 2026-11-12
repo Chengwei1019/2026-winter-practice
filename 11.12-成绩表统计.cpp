@@ -34,8 +34,8 @@ int main(){
         for(int i = 0;i<n;i++){
             b[k] += a[i][k];
         }
-        average = b[k]/m;
-        cout<<fixed<<setprecision<<average<<" ";
+        average = b[k]/n;
+        cout<<fixed<<setprecision(2)<<average<<" ";
     }
     cout.unsetf(ios::fixed);
 
@@ -51,8 +51,5 @@ int main(){
    
 
     cout<<endl<<max_num<<endl;
-
-
-
     return 0;
 }
