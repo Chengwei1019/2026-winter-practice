@@ -28,6 +28,9 @@ int main(){
 
     double average;
     for(int z = 0;z<n;z++){
-        
+        int total1;
+        for(int x = 0;x<m:x++){
+            total1 += a
+        }
     }
 }
