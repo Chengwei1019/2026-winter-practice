@@ -10,5 +10,5 @@ using namespace std;
 int main(){
     int a1;
     int a2;
-    cin>>
+    cin>>a1>>a2;
 }
