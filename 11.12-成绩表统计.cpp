@@ -35,7 +35,7 @@ int main(){
             cout<<fixed<<setprecision(2)<<average<<" ";
     }
 
-    int max = b[0];
+    double max = b[0];
     int max_num = 1;
     for(int i=1;i<n;i++){
         if(b[i] > b[0]){
