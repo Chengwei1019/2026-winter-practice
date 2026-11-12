@@ -21,7 +21,9 @@ int main(){
     int a[4][13] = {};
     while(cin>>sort>>num){
         if(sort = 'S'){
-            a[1][num]
-        }
+            a[1][num] = 1;
+        }else if(sort = 'H'){
+            a[2][num] = 1;
+        }else if(sp)
     }
 }
