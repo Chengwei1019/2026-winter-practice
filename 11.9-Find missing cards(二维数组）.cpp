@@ -20,13 +20,13 @@ int main(){
     int num;
     int a[4][14] = {};
     while(cin>>sort>>num){
-        if(sort = 'S'){
+        if(sort == 'S'){
             a[0][num] = 1;
-        }else if(sort = 'H'){
+        }else if(sort == 'H'){
             a[1][num] = 1;
-        }else if(sort = 'C'){
+        }else if(sort =='C'){
             a[2][num] = 1;
-        }else if(sort = 'D'){
+        }else if(sort == 'D'){
             a[3][num] = 1;
         }
     }
