@@ -28,5 +28,10 @@ int main(){
         b[i] = a1 % 10;
         a1 = a1 / 10;
     }
+
+    int c[200] = {};
+    for(int i = 0;i<sum2;i++){
+        c[i] = 
+    }
     
 }
