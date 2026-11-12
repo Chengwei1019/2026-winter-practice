@@ -27,15 +27,15 @@ int main(){
     }
 
     double average;
-    for(int z = 0;z<n;z++){
+    for(int i = 0;i<n;i++){
         int total1;
-        for(int c = 0;c < m:c++){
+        for(int k = 0;k < m:k++){
             total1 += a[z][c];
             average = total/n;
             cout<<fixed<<setprecision(2)<<average<<" ";
         }
     }
 
-    int max = 
+    for(int)
 
 }
