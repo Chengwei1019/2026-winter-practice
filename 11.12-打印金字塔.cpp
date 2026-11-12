@@ -16,7 +16,9 @@ int main(){
                 cout<<" ";
             }else if(j == n){
                 cout<<"1";
-            }else if(j>n -i)
+            }else if(j>n - i&&j<n){
+                for
+            }
         }
     }
 }
