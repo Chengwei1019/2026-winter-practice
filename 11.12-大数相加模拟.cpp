@@ -35,6 +35,7 @@ int main(){
         a2 = a2 /10;
     }
 
-    
+    int c[200] = {};
+    int max
     
 }
