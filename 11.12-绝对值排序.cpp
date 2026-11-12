@@ -10,5 +10,8 @@
 using namespace std;
 int main(){
     int n;
-    for(int i = 1)
+    int num;
+    for(int i = 1;i<=n;i++){
+        cin>>num;
+    }
 }
