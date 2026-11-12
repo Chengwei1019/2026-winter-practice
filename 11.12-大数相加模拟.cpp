@@ -23,7 +23,7 @@ int main(){
         sum2++;
     }
 
-    int b[200] = {};
+    int b[201] = {};
     for(int i = 0;i<sum1;i++){
         b[i] = a1 % 10;
         a1 = a1 / 10;
@@ -35,6 +35,7 @@ int main(){
         a2 = a2 /10;
     }
 
+    int d[201] = {};
     int max = sum1;
     if(sum2 > sum1){
         max = sum2;
