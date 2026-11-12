@@ -20,8 +20,7 @@ int main(){
 
     int b[201] = {};
     for(int i = 0;i<len1;i++){
-        b[i] = a1 % 10;
-        a1 = a1 / 10;
+        b[i] = s[len1 - 1 - 1]-'0';
     }
 
     int c[201] = {};
