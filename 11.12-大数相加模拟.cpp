@@ -31,7 +31,10 @@ int main(){
 
     int c[200] = {};
     for(int i = 0;i<sum2;i++){
-        c[i] = 
+        c[i] = a2 % 10;
+        a2 = a2 /10;
     }
+
+    
     
 }
