@@ -15,5 +15,7 @@ int main(){
     int a;
     for(int i = 1;i<=n;i++){
         cin>>num;
+        a = abs(num);
+        
     }
 }
