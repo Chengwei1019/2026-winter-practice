@@ -24,7 +24,7 @@ int main(){
 
     for(int i = 0;i<m;i++){
         for(int k = 0;k<p;k++){
-            cin>>b[i]
+            cin>>b[i][k];
         }
     }
 }
