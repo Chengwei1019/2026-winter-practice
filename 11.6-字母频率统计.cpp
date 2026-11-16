@@ -13,7 +13,7 @@ int main(){
     getline(cin,s);
     for(char i = 'a';i <= 'z';i++){
         int sum = 0;
-        char a = s.find(i);
+        size_t a = s.find(i);
         while(a != string::npos){
             sum++;
             s = s.substr(a,1);
