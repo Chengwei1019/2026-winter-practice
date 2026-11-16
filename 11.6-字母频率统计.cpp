@@ -12,8 +12,8 @@ int main(){
     string s;
     getline(cin,s);
     for(char i = 'a';i <= 'z';i++){
-        int sum;
-        int a = s.find(i);
+        int sum = 0;
+        char a = s.find(i);
         while(a != string::npos){
             sum++;
             s = s.substr(a,1);
