@@ -12,7 +12,8 @@ using namespace std;
 int main(){
     string s;
     getline(cin,s);
-    int m = s
+    int m = s.length();
+    
     for(char i = 'a';i <= 'z';i++){
         int sum = 0;
         size_t a = s.find(i);
