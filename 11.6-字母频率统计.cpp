@@ -20,7 +20,8 @@ int main(){
             a = s.find(i);
         }
         if(a != string::npos){
-            cout<<i<<
+            cout<<i<<sum<<endl;
         }
     }
+    return 0;
 }
