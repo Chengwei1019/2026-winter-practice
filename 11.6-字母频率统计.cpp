@@ -16,7 +16,9 @@ int main(){
         int a = s.find(i);
         while(a != string::npos){
             sum++;
-            s = s.substr(a)
+            s = s.substr(a,1);
+            a = s.find(i);
         }
+        
     }
 }
