@@ -11,5 +11,7 @@ using namespace std;
 int main(){
     string s;
     getline(cin,s);
-    for(char i = 'a';)
+    for(char i = 'a';i <= 'z';i++){
+        
+    }
 }
