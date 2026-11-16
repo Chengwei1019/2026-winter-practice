@@ -19,6 +19,8 @@ int main(){
             s = s.substr(a,1);
             a = s.find(i);
         }
-        
+        if(a != string::npos){
+            cout<<i<<
+        }
     }
 }
