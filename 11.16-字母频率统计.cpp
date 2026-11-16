@@ -14,7 +14,7 @@ int main(){
     getline(cin,s);
     int m = s.length();
     for(int i = 1;i<m;i++){
-        s[i] = 
+        s[i] = tolower(s[i]);
     }
     for(char i = 'a';i <= 'z';i++){
         int sum = 0;
