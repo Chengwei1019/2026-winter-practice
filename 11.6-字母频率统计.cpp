@@ -6,4 +6,10 @@
 输出描述
 按 a～z 的顺序，对每个出现次数大于 0 的字母输出一行：小写字母，一个空格，出现次数。*/
 #include<iostream>
-#include<string
+#include<string>
+using namespace std;
+int main(){
+    string s;
+    getline(cin,s);
+    
+}
