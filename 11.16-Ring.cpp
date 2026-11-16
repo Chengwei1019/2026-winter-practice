@@ -6,3 +6,20 @@ In the second line, the pattern p is given.
 s and p consists of lower-case letters
 输出描述
 If p is in s, print ‘Yes’ in a line, otherwise ‘No’.*/
+#include<iostream>
+#include<string>
+using namespace std;
+int main(){
+    string s1;
+    string s2;
+    string s3;
+    getline(cin,s1);
+    getline(cin,s2);
+    s3 = s1 + s1;
+    size_t a = s3.find(s2);
+    if(a != string::npos){
+        cout<<"Yes";
+    }else{
+        cout<<"No";
+    }
+}
