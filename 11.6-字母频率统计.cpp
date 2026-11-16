@@ -14,8 +14,9 @@ int main(){
     for(char i = 'a';i <= 'z';i++){
         int sum;
         int a = s.find(i);
-        if(a != string::npos){
-            
+        while(a != string::npos){
+            sum++;
+
         }
     }
 }
