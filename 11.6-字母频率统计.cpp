@@ -17,7 +17,7 @@ int main(){
         if(a != string::npos){
         while(a != string::npos){
             sum++;
-            a = 
+            a = s.find(i,a+1);
         }
             cout<<i<<sum<<endl;
     }
