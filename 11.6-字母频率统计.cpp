@@ -13,6 +13,9 @@ int main(){
     getline(cin,s);
     for(char i = 'a';i <= 'z';i++){
         int sum;
-        int 
+        int a = s.find(i);
+        if(a != string::npos){
+            
+        }
     }
 }
