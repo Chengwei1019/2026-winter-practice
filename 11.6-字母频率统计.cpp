@@ -19,7 +19,7 @@ int main(){
             sum++;
             a = s.find(i,a+1);
         }
-            cout<<i<<sum<<endl;
+            cout<<i<<" "<<sum<<endl;
     }
     }
     return 0;
