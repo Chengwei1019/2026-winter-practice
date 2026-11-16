@@ -13,7 +13,9 @@ int main(){
     string s;
     getline(cin,s);
     int m = s.length();
-    
+    for(int i = 1;i<m;i++){
+        s[i] = 
+    }
     for(char i = 'a';i <= 'z';i++){
         int sum = 0;
         size_t a = s.find(i);
