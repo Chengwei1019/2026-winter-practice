@@ -12,7 +12,7 @@ int main(){
     string s;
     getline(cin,s);
     for(char i = 'a';i <= 'z';i++){
-        int sum = 0;
+        int sum = 1;
         size_t a = s.find(i);
         if(a != string::npos){
         while(a != string::npos){
