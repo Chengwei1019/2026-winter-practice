@@ -16,7 +16,7 @@ int main(){
         int a = s.find(i);
         while(a != string::npos){
             sum++;
-
+            a = s.strsub()
         }
     }
 }
