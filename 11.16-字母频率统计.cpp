@@ -12,7 +12,7 @@ using namespace std;
 int main(){
     string s;
     getline(cin,s);
-
+    int m = 
     for(char i = 'a';i <= 'z';i++){
         int sum = 0;
         size_t a = s.find(i);
