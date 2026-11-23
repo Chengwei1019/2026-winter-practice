@@ -9,6 +9,9 @@
 输出 2 行：第 1 行是 N 的各位数字之和，第 2 行是 N 的二进制表示（N = 0 时输出 0）*/
 #include<iostream>
 using namespace std;
+
 int a1(int n){
-    
+    while(n/10 != 0){
+        
+    }
 }
