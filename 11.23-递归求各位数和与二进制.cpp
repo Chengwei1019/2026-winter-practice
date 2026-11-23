@@ -12,9 +12,13 @@ using namespace std;
 
 int A1(int n){
     int temp;
-    int sum;
+    int sum = 0;
     while(n/10 != 0){
         int temp = n % 10;
-         
+        sum += temp; 
+        n = n / 10;
     }
+    return sum;
 }
+
+int A2
