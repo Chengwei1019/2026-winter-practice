@@ -27,8 +27,8 @@ int A2(int N){
         T = 0;
     }
     if(T != 0){
-        while(N / 2 == 0){
-            
+        for(int i = 1;i != 0;i++){
+            N = N / 2;
         }
     }   
 }
