@@ -10,15 +10,17 @@
 #include<iostream>
 using namespace std;
 
-int A1(int n){
+int A1(int N){
     int temp;
     int sum = 0;
-    while(n/10 != 0){
-        int temp = n % 10;
+    while(N/10 != 0){
+        int temp = N % 10;
         sum += temp; 
-        n = n / 10;
+        N = N / 10;
     }
     return sum;
 }
 
-int A2
+int A2(int N){
+    
+}
