@@ -10,7 +10,7 @@
 #include<iostream>
 using namespace std;
 
-int A1(int N){
+int A1(long long N){
     int temp;
     int sum = 0;
     while(N/10 != 0){
@@ -21,7 +21,7 @@ int A1(int N){
     return sum;
 }
 
-int A2(int N){
+int A2(long long N){
     int T;
     if(N == 0){
         T = 0;
