@@ -11,7 +11,10 @@
 using namespace std;
 
 int A1(int n){
+    int temp;
+    int sum;
     while(n/10 != 0){
-        
+        int temp = n % 10;
+         
     }
 }
