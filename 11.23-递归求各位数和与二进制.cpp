@@ -10,7 +10,7 @@
 #include<iostream>
 using namespace std;
 
-int a1(int n){
+int A1(int n){
     while(n/10 != 0){
         
     }
