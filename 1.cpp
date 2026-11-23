@@ -1,3 +1,5 @@
 #include<iostream>
 using namespace std;
-void 
+void swap(int a int b){
+    
+}
