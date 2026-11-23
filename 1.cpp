@@ -5,4 +5,12 @@ void swap(int a,int b){
     a = b;
     b = temp;
     return;
+
+}
+
+
+int main(){
+    int a = 10;
+    int b = 20;
+    
 }
