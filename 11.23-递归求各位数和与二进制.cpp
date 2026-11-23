@@ -22,5 +22,8 @@ int A1(int N){
 }
 
 int A2(int N){
-    
+    int 
+    if(N == 0){
+
+    }   
 }
