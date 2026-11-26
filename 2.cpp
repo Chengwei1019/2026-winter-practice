@@ -2,10 +2,11 @@
 using namespace std;
 long long gcd(long long n,long long m){
     long long min = n;
+    long long gcd;
     if(n>m){
         min = m;
     }
     for(int i = 1;i<=min;i++){
-        
+        if()
     }
 }
