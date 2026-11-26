@@ -13,5 +13,7 @@ bool m(int x)
 }
 
 int main(){
-    int x
+    int x;
+    cin>>x;
+    x2 = x
 }
