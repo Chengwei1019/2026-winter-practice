@@ -13,7 +13,10 @@ bool m(int x)
 }
 
 int main(){
-    int x;
+    int x,x2,x3;
     cin>>x;
-    x2 = x
+    x2 = x*x;
+    x3 = x*x*x;
+    if
+
 }
