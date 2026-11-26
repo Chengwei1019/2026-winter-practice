@@ -1,5 +1,6 @@
 #include<iostream>
 using namespace std;
+
 bool isPal(int x)
 {
     if (x < 0 || (x % 10 == 0 && x != 0)) return false; 
