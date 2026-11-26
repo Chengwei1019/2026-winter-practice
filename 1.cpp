@@ -11,6 +11,11 @@ long long m1(int n,long long x){
     }else{
         for(int i = 1;i<=n;i++){
             power *= x;
+            cout<<power<<endl;
         }
     }
+}
+
+int main(){
+
 }
