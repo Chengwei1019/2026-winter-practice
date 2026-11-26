@@ -17,6 +17,8 @@ int main(){
     cin>>x;
     x2 = x*x;
     x3 = x*x*x;
-    if(m(x)== 1&&m())
+    if(m(x)== 1&&m(x2) == 1&&m(x3) == 1){
+        cout<<
+    }
 
 }
