@@ -14,9 +14,9 @@ bool m(int x)
 
 int main(){
     int x,x2,x3;
-    x2 = x*x;
-    x3 = x*x*x;
     for(x = 11;x<=999;x++){
+        x2 = x*x;
+        x3 = x*x*x;
     if(m(x)== 1&&m(x2) == 1&&m(x3) == 1){
         cout<<x<<endl;
     }
