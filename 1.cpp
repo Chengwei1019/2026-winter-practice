@@ -7,7 +7,10 @@ long long m1(int n,long long x){
         return 0;
     }else if(n == 0){
         power = 1;
+        cout<<power<<endl;
     }else{
-        
+        for(int i = 1;i<=n;i++){
+            power *= x;
+        }
     }
 }
