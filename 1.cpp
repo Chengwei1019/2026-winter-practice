@@ -13,6 +13,7 @@ long long m1(int n,long long x){
             cout<<power<<endl;
         }
     }
+    return power;
 }
 
 int main(){
