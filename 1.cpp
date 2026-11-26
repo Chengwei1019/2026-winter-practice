@@ -19,6 +19,10 @@ int main(){
     int n;
     long long x;
     cin>>x>>n;
+    if(x == -1&&n == -1){
+        return 0;
+    }else{
     m1(n,x);
+    }    
 return 0;
 }
