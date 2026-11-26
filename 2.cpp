@@ -5,4 +5,7 @@ long long gcd(long long n,long long m){
     if(n>m){
         min = m;
     }
+    for(int i = 1;i<=min;i++){
+        
+    }
 }
