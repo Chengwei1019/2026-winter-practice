@@ -3,5 +3,7 @@ using namespace std;
 
 long long m1(int n,long long x){
     long long power = 1;
-    if(n == -1)
+    if(n == -1&&x == -1) {
+        
+    }
 }
