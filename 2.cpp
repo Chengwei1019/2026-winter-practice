@@ -17,5 +17,6 @@ long long gcd(long long n,long long m){
 int main(){
     long long n;
     long long m;
-    cout<<
+    cin>>n>>m;
+    cout<<gcd(n,m)<<endl;
 }
