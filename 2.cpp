@@ -7,6 +7,8 @@ long long gcd(long long n,long long m){
         min = m;
     }
     for(int i = 1;i<=min;i++){
-        if()
+        if(n % i == 0&&m % i == 0){
+            gcd = i;
+        }
     }
 }
