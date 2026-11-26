@@ -11,7 +11,7 @@ long long m1(int n,long long x){
         for(int i = 1;i<=n;i++){
             power *= x;
         }
-        cout<<power<<endl;2
+        cout<<power<<endl;
     }
     return power;
 }
