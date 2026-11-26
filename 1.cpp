@@ -19,6 +19,7 @@ long long m1(int n,long long x){
 int main(){
     int n;
     long long x;
-    cin>>
-
+    cin>>x>>n;
+    m1(n,x);
+return 0;
 }
