@@ -11,4 +11,11 @@ long long gcd(long long n,long long m){
             gcd = i;
         }
     }
+    return gcd;
+}
+
+int main(){
+    long long n;
+    long long m;
+    cout<<
 }
